@@ -1,0 +1,28 @@
+# Large trajectory files
+md.xtc
+*.xtc
+
+# GROMACS backup files
+#*#
+#*.1#
+#*.2#
+
+# Editor and OS temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment and caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Keep useful scientific outputs tracked unless explicitly excluded.
+# Do not exclude .mdp, .top, .gro, .xvg, .edr, .cpt, .tpr, .png, .pdb, or .log files.
