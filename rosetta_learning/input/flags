@@ -1,0 +1,12 @@
+# Standard Rosetta command flags for enzyme design / relaxation
+-in:file:s input/1AKI.pdb
+-parser:protocol input/enzyme_design.xml
+-nstruct 50
+-relax:constrain_relax_to_start_coords
+-relax:coord_constrain_sidechains
+-ex1
+-ex2
+-use_input_sc
+-out:path:all output_models/
+-out:file:scorefile scores.sc
+-overwrite

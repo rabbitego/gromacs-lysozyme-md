@@ -1,0 +1,27 @@
+# Rosetta Resfile for Lysozyme Active-Site Engineering (PDB 1AKI)
+# Default behavior: pack existing native residues (no mutations)
+AUTO
+start
+
+# --- Target Design Positions ---
+# Subsite B: Trp62 -> Tyr or Trp
+62 A PIKAA Y W
+
+# Subsite A: Asp101 -> Asn or Asp
+101 A PIKAA N D
+
+# Subsite D: Trp108 -> Phe or Trp
+108 A PIKAA F W
+
+# Subsite B/C: Asn59 -> Ser or Asn
+59 A PIKAA S N
+
+# Subsite E: Arg45 -> Lys or Arg
+45 A PIKAA K R
+
+# --- Catalytic Machinery (Must remain fixed identity) ---
+# Glu35 General Acid
+35 A NATAA
+
+# Asp52 Nucleophile / TS stabilization
+52 A NATAA

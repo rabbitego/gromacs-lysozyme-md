@@ -1,0 +1,40 @@
+<ROSETTASCRIPTS>
+    <!-- Define the scoring function -->
+    <SCOREFXNS>
+        <ScoreFunction name="ref15_cst" weights="ref2015">
+            <Reweight scoretype="atom_pair_constraint" weight="1.0"/>
+            <Reweight scoretype="angle_constraint" weight="1.0"/>
+            <Reweight scoretype="dihedral_constraint" weight="1.0"/>
+        </ScoreFunction>
+    </SCOREFXNS>
+
+    <!-- Define residue-level design and packing instructions -->
+    <TASKOPERATIONS>
+        <!-- Read our resfile -->
+        <ReadResfile name="rrf" filename="input/lysozyme_design.resfile"/>
+        <!-- Sample sub-rotamers (chi1 and chi2) for higher fidelity packing -->
+        <ExtraRotamersGeneric name="ex_rot" ex1="1" ex2="1" extrachi_cutoff="0"/>
+        <!-- Include current rotamer conformation in the rotamer library -->
+        <IncludeCurrent name="inc_curr"/>
+    </TASKOPERATIONS>
+
+    <!-- Define computational movers -->
+    <MOVERS>
+        <!-- PackRotamers with simulated annealing -->
+        <PackRotamersMover name="pack_des" scorefxn="ref15_cst" task_operations="rrf,ex_rot,inc_curr"/>
+        <!-- Gradient-based minimization with coordinate constraints -->
+        <FastRelax name="relax" scorefxn="ref15_cst" task_operations="rrf,ex_rot,inc_curr" repeats="3"/>
+    </MOVERS>
+
+    <!-- Define metrics and filters -->
+    <FILTERS>
+        <ScoreType name="total_score_filter" scorefxn="ref15_cst" score_type="total_score" threshold="0.0"/>
+    </FILTERS>
+
+    <!-- Execution pipeline -->
+    <PROTOCOLS>
+        <Add mover_name="pack_des"/>
+        <Add mover_name="relax"/>
+        <Add filter_name="total_score_filter"/>
+    </PROTOCOLS>
+</ROSETTASCRIPTS>

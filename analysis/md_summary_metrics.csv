@@ -1,0 +1,9 @@
+Observable,Unit,Mean,Std,SEM,95% CI,Stationary
+Backbone RMSD,nm,0.1531,0.0155,0.0042,"[0.1449, 0.1613]",False
+Radius of Gyration (Rg),nm,1.4182,0.0072,0.0008,"[1.4166, 1.4198]",True
+Shape Anisotropy (kappa^2),dimensionless,0.0124,0.0089,0.003,"[0.0066, 0.0182]",True
+Intramolecular H-Bonds,count,101.8442,4.4513,0.5042,"[100.8559, 102.8324]",True
+System Temperature,K,300.0214,1.6784,0.0561,"[299.9114, 300.1314]",True
+System Pressure,bar,13.5159,146.8108,5.0818,"[3.5556, 23.4763]",True
+System Density,kg/m^3,992.3467,4.4828,0.1417,"[992.069, 992.6244]",True
+Total Energy,kJ/mol,-405543.8904,1086.8728,37.556,"[-405617.5001, -405470.2806]",True
