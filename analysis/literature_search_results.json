@@ -1,0 +1,1269 @@
+{
+  "FoldingDiff": {
+    "query": "FoldingDiff protein torsion angle diffusion",
+    "europe_pmc": [
+      {
+        "title": "Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches.",
+        "authors": "Barnett AJ, Kc R, Pandey P, Somasiri P, Fairfax KA, Hung S, Hewitt AW.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/gpbjnl/qzag014",
+        "pmid": "41693001",
+        "pmcid": "PMC13472679",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Recent advances in artificial intelligence have led to the development of generative models for de novo protein design. In this study, we compared 13 state-of-the-art generative protein models, assessing their ability to produce feasible, diverse, and novel protein monomers. Structural diffusion models generally create designs with higher confidence in predicted structures and more biologically plausible energy distributions, but exhibit limited diversity and strong sequence biases. Conversely, protein language models generate more diverse and novel designs but with lower structural confidence. We also evaluated the ability of these models to generate unique proteins, conditionally based on the tobacco etch virus (TEV) protease. Generative models are successful in producing functional enzymes, albeit with diminished activity compared to the wild-type TEV. Our systematic benchmarking provides a foundation for evaluating and selecting generative protein models, while highlighting the complementary strengths of different generative paradigms. This framework will facilitate informed application of these tools for biomedical\u00a0engineering and design.",
+        "url": "https://doi.org/10.1093/gpbjnl/qzag014"
+      },
+      {
+        "title": "Efficient Sampling of Short Protein Trajectories with Conditional Diffusion Models.",
+        "authors": "Xiong C, Kandhan P, Chen D, Ma Z, Smith ED, Tao P.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jctc.5c01579",
+        "pmid": "41481844",
+        "pmcid": "PMC12861079",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Understanding how protein structures dictate their diverse biological functions remains one of the central and enduring challenges in structural biology. The development of AlphaFold and ESMAtlas marks a significant advance in protein science, enabling the reliable prediction of protein structure directly from amino acid sequence. This advance in structure prediction underscores the need for complementary methods that can explore conformational space and enable efficient sampling of dynamic trajectories. Here, we present TSS-Pro, a conditional generative diffusion framework that enables efficient sampling of protein conformational trajectory space. TSS-Pro takes the initial frame as conditional input and generates protein conformational trajectories. It supports two sampling strategies: (1) consecutive sampling, where each trajectory segment is generated step by step by conditioning on the final frame of the previously generated segment, enabling temporally coherent propagation of structural transitions; (2) parallel sampling, where multiple trajectory branches are independently generated from initial conditions to enhance conformational diversity. We validate TSS-Pro on three representative systems of increasing complexity: alanine dipeptide, ubiquitin, and <i>Drosophila</i> cryptochrome (<i>d</i>CRY). TSS-Pro reproduces the free energy landscape of alanine dipeptide. In the case of ubiquitin, consecutive sampling with TSS-Pro overcomes local minima and uncovers distinct conformational states of the C-terminal region. For the large protein <i>d</i>CRY, TSS-Pro achieves high efficiency through parallel trajectory sampling, enabling conformational and dynamic exploration typically accessible only through extensive simulations. TSS-Pro paves the way for high-throughput exploration of protein trajectories and conformational landscapes for large and complex systems.",
+        "url": "https://doi.org/10.1021/acs.jctc.5c01579"
+      },
+      {
+        "title": "Protein structure generation via folding diffusion.",
+        "authors": "Wu KE, Yang KK, van den Berg R, Alamdari S, Zou JY, Lu AX, Amini AP.",
+        "journal": null,
+        "pub_year": "2024",
+        "doi": "10.1038/s41467-024-45051-2",
+        "pmid": "38316764",
+        "pmcid": "PMC10844308",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "The ability to computationally generate novel yet physically foldable protein structures could lead to new biological discoveries and new treatments targeting yet incurable diseases. Despite recent advances in protein structure prediction, directly generating diverse, novel protein structures from neural networks remains difficult. In this work, we present a diffusion-based generative model that generates protein backbone structures via a procedure inspired by the natural folding process. We describe a protein backbone structure as a sequence of angles capturing the relative orientation of the constituent backbone atoms, and generate structures by denoising from a random, unfolded state towards a stable folded structure. Not only does this mirror how proteins natively twist into energetically favorable conformations, the inherent shift and rotational invariance of this representation crucially alleviates the need for more complex equivariant networks. We train a denoising diffusion probabilistic model with a simple transformer backbone and demonstrate that our resulting model unconditionally generates highly realistic protein structures with complexity and structural patterns akin to those of naturally-occurring proteins. As a useful resource, we release an open-source codebase and trained models for protein structure diffusion.",
+        "url": "https://doi.org/10.1038/s41467-024-45051-2"
+      },
+      {
+        "title": "Structure-based protein and small molecule generation using EGNN and diffusion models: A comprehensive review.",
+        "authors": "Soleymani F, Paquet E, Viktor HL, Michalowski W.",
+        "journal": null,
+        "pub_year": "2024",
+        "doi": "10.1016/j.csbj.2024.06.021",
+        "pmid": "39050782",
+        "pmcid": "PMC11268121",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Recent breakthroughs in deep learning have revolutionized protein sequence and structure prediction. These advancements are built on decades of protein design efforts, and are overcoming traditional time and cost limitations. Diffusion models, at the forefront of these innovations, significantly enhance design efficiency by automating knowledge acquisition. In the field of <i>de novo</i> protein design, the goal is to create entirely novel proteins with predetermined structures. Given the arbitrary positions of proteins in 3-D space, graph representations and their properties are widely used in protein generation studies. A critical requirement in protein modelling is maintaining spatial relationships under transformations (rotations, translations, and reflections). This property, known as equivariance, ensures that predicted protein characteristics adapt seamlessly to changes in orientation or position. Equivariant graph neural networks offer a solution to this challenge. By incorporating equivariant graph neural networks to learn the score of the probability density function in diffusion models, one can generate proteins with robust 3-D structural representations. This review examines the latest deep learning advancements, specifically focusing on frameworks that combine diffusion models with equivariant graph neural networks for protein generation.",
+        "url": "https://doi.org/10.1016/j.csbj.2024.06.021"
+      },
+      {
+        "title": "Sifting through the noise: A survey of diffusion probabilistic models and their applications to biomolecules.",
+        "authors": "Norton T, Bhattacharya D.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1016/j.jmb.2024.168818",
+        "pmid": "39389290",
+        "pmcid": "PMC11885034",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Diffusion probabilistic models have made their way into a number of high-profile applications since their inception. In particular, there has been a wave of research into using diffusion models in the prediction and design of biomolecular structures and sequences. Their growing ubiquity makes it imperative for researchers in these fields to understand them. This paper serves as a general overview for the theory behind these models and the current state of research. We first introduce diffusion models and discuss common motifs used when applying them to biomolecules. We then present the significant outcomes achieved through the application of these models in generative and predictive tasks. This survey aims to provide readers with a comprehensive understanding of the increasingly critical role of diffusion models.",
+        "url": "https://doi.org/10.1016/j.jmb.2024.168818"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Constructing Structural Profiles for Protein Torsion Angle Prediction",
+        "authors": "Zafer Aydin, David Baker, William Stafford Noble",
+        "journal": "Proceedings of the International Conference on Bioinformatics Models, Methods and Algorithms",
+        "pub_year": 2015,
+        "doi": "10.5220/0005208500260035",
+        "type": "proceedings-article",
+        "citations": 6,
+        "abstract": null,
+        "url": "https://doi.org/10.5220/0005208500260035"
+      },
+      {
+        "title": "Dipolar-Based Torsion Angle Measurements for Protein Structure Determination",
+        "authors": "Vladimir Ladizhansky",
+        "journal": "Encyclopedia of Magnetic Resonance",
+        "pub_year": 2009,
+        "doi": "10.1002/9780470034590.emrstm1153",
+        "type": "reference-entry",
+        "citations": 3,
+        "abstract": null,
+        "url": "https://doi.org/10.1002/9780470034590.emrstm1153"
+      },
+      {
+        "title": "Protein-Conditional Normalizing Flows on Manifolds for Backbone Torsion Angle Modeling",
+        "authors": "nooshin  akbari sharak, Mahmood Amintoosi, morteza najibi, Mohammad  Taghi Shakeri",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.2139/ssrn.6996786",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:p>\u200eAngular representations play a central role in protein structure analysis\u200e, \u200ewith backbone torsion angles providing a compact and physically meaningful description of local conformations\u200e. \u200eThese variables naturally reside on non-Euclidean manifolds such as circles\u200e, \u200etori\u200e, \u200eand spheres\u200e, \u200emaking standard Euclidean density models unsuitable because they ignore periodicity and manifold geometry\u200e. \u200eAlthough normalizing flows provide a flexible framework for density estimation with exact likelihood evaluation\u200e, \u200emost existing methods are designed for Euclidean spaces or require approximations when applied to manifold-valued data\u200e.\u200eStandard Protein Neural Circular Spline Flows estimate a single probability distribution shared across all proteins\u200e, \u200epotentially overlooking protein-specific conformational characteristics\u200e. \u200eTo address this limitation\u200e, \u200ewe propose Protein-Conditional Neural Circular Spline Flows (PC-NCSF)\u200e, \u200ewhich estimate protein-specific distributions while leveraging a shared statistical representation across the dataset\u200e. \u200eThe proposed framework extends neural circular spline flows to toroidal and spherical manifolds through invertible\u200e, \u200egeometry-preserving transformations with tractable Jacobians\u200e. \u200eProtein-specific conformational preferences are incorporated through learnable protein embeddings that condition the flow parameters\u200e.\u200eWe evaluate PC-NCSF on backbone torsion-angle data and spherical angular representations derived from protein structure databases\u200e. \u200eExperimental results demonstrate that conditioning consistently improves density estimation compared with unconditional models\u200e, \u200eyielding lower negative log-likelihood values and more accurate protein-specific density representations\u200e. \u200eThe learned distributions respect the intrinsic topology and periodicity of the underlying manifolds while adapting to individual proteins\u200e. \u200eThese findings establish PC-NCSF as a principled probabilistic framework for modeling protein angular data\u200e, \u200ewith potential applications in protein structure analysis\u200e, \u200eclassification\u200e, \u200eand generative modeling\u200e. \u200eThe complete implementation is available at\u200e:\\url{https://github.com/mamintoosi-papers-codes/CFFF}\u200e.</jats:p>",
+        "url": "https://doi.org/10.2139/ssrn.6996786"
+      },
+      {
+        "title": "SAINT-Angle: self-attention augmented inception-inside-inception network and transfer learning improve protein backbone torsion angle prediction",
+        "authors": "A.K.M. Mehedi Hasan, Ajmain Yasar Ahmed, Sazan Mahbub, M. Saifur Rahman, Md. Shamsuzzoha Bayzid",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2022.12.08.519543",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>\n                    Protein structure provides insight into how proteins interact with one another as well as their functions in living organisms. Protein backbone torsion angles (\n                    <jats:italic>\u03d5</jats:italic>\n                    and\n                    <jats:italic>\u03c8</jats:italic>\n                    ) prediction is a key sub-problem in predicting protein structures. However, reliable determination of backbone torsion angles using conventional experimental methods is slow and expensive. Therefore, considerable effort is being put into developing computational methods for predicting backbone angles.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We present SAINT-Angle, a highly accurate method for predicting protein backbone torsion angles using a self-attention based deep learning network called SAINT, which was previously developed for the protein secondary structure prediction. We extended and improved the existing SAINT architecture as well as used transfer learning to predict backbone angles. We compared the performance of SAINT-Angle with the state-of-the-art methods through an extensive evaluation study on a collection of benchmark datasets, namely, TEST2016, TEST2018, CAMEO, and CASP. The experimental results suggest that our proposed self-attention based network, together with transfer learning, has achieved notable improvements over the best alternate methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    SAINT-Angle is freely available as an open-source project at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/bayzidlab/SAINT-Angle\">https://github.com/bayzidlab/SAINT-Angle</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>shams_bayzid@cse.buet.ac.bd</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary material SM.pdf.</jats:p>\n                </jats:sec>",
+        "url": "https://doi.org/10.1101/2022.12.08.519543"
+      },
+      {
+        "title": "TAFPred: Torsion Angle Fluctuations Prediction from Protein Sequences",
+        "authors": "Md Wasi Ul Kabir, Duaa Mohammad Alawad, Avdesh Mishra, Md Tamjidul Hoque",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.20944/preprints202307.0012.v1",
+        "type": "posted-content",
+        "citations": 1,
+        "abstract": "<jats:p>Protein molecules show varying degrees of flexibility throughout their three-dimensional structures. This flexibility is associated with the fluctuation of the torsion angle in proteins. The protein backbone can be defined mainly by two torsion angles, phi (\u03c6) and psi (\u03c8). The fluctuation of torsion angles is derived from different NMR models\u2019 variations in backbone torsion angles. The angle fluctuations in the cartesian coordinate space are used to characterize the protein\u2019s structural flexibility. Fluctuation of torsion angle is useful in predicting protein function and structure when the torsion angles are used as restraints. This study aims to develop a machine learning method to predict torsion angle fluctuations directly from protein sequences. It explores various useful features such as disorder probability, position-specific scoring matrix profiles, secondary structure probabilities, monograms, bigram, position-specific estimated energy, half-sphere exposures, etc. Likewise, it explores well-known machine learning methods and proposes an optimized Light Gradient Boosting Machine Regressor (LightGBM) method, named TAFPred, to predict torsion angle fluctuations with the selected features. The proposed method achieves ten-fold cross-validated correlation coefficients of 0.746 and 0.737 and mean absolute errors of 0.114 and 0.123 for the angle fluctuation of \u03c6 and \u03c8, respectively, and attains an improvement of 10.08% in MAE, 24.83% in PCC in the phi angle, and 9.93% in MAE, 22.37% in PCC in psi angle compared to the state-of-the-art method proposed by Zhang et al.</jats:p>",
+        "url": "https://doi.org/10.20944/preprints202307.0012.v1"
+      }
+    ],
+    "arxiv": []
+  },
+  "Torsional_Diffusion": {
+    "query": "torsional diffusion protein molecular",
+    "europe_pmc": [
+      {
+        "title": "Twist-encoded magnetic plasmon interferometry for label-free, orientation-resolved single-molecule imaging.",
+        "authors": "Sun Y, Lv WL, Xiao QB, Wu G, Liu XW.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1126/sciadv.aef5199",
+        "pmid": "42525761",
+        "pmcid": "PMC13418744",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Molecular twist-related rotational dynamics at solid-liquid interfaces governs recognition, dissipation, and barrier crossing, yet direct label-free visualization of single-molecule torsion remains challenging. Here, we present twist-encoded magnetic plasmon interferometry (TEMPi), which converts nanorod twist near a metal film into a phase-encoded, orientation-resolved optical signal. Near-field coupling between a gold nanorod and its mirror image in the film excites a localized magnetic plasmon, enabling quantitative mapping of probe twist to interferometric phase. Wide-field, label-free operation in native buffers enables real-time tracking of rotational dynamics and interfacial conformational changes. TEMPi resolves three confinement-dependent rotational regimes, distinguishes effective dual- and single-contact protein anchoring, and localizes single binding sites on the probe through twist-dependent centroid shifts. Applied to DNA hybridization, it quantifies an effective ninefold increase in torsional stiffness and an order-of-magnitude faster twisting relaxation upon duplex formation. These results establish TEMPi as a general twist-resolved metrology for probing effective interfacial molecular mechanics and designing torsion-responsive interfaces in chemistry, biology, and nanotechnology.",
+        "url": "https://doi.org/10.1126/sciadv.aef5199"
+      },
+      {
+        "title": "Decoding the Hot-Mitochondrion Paradox.",
+        "authors": "Fahimi P, Lynch M, Matta CF.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/bies.70159",
+        "pmid": "42423244",
+        "pmcid": "PMC13347768",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "In a 2018 paper and a subsequent article published in 2023, researchers reported that mitochondria maintain temperatures 10\u00b0C-15\u00b0C higher than the surrounding cytoplasm-a finding that deviates by five to six orders of magnitude from theoretical predictions based on Fourier's law of heat conduction. In 2022, we proposed a solution to this apparent paradox. In the present perspective, we build upon that framework and introduce new ideas to further unravel how a biological membrane-whether of an organelle or a whole cell-can become significantly warmer than its environment. We propose that ion-translocating proteins embedded in the inner mitochondrial membrane (IMM) can be modeled as ratchet engines, introducing a novel, previously overlooked mode of heat transfer. This mechanism, coupled with localized heat release during the cyclical dehydration-translocation-hydration of ions through membrane proteins, may generate transient but substantial temperature spikes. The cumulative thermal occupancy of these microscopic events across the three-dimensional surface of the IMM can account for the elevated temperatures detected by molecular probes.",
+        "url": "https://doi.org/10.1002/bies.70159"
+      },
+      {
+        "title": "Simulating Dilute-Solution Properties and Behavior of Flexible Macromolecules: A Review of Brownian Dynamics, Monte Carlo Methods, and Computational Tools (SIMUFLEX and MONTEHYDRO) with Applications to Biomacromolecules and Selected Synthetic Polymers.",
+        "authors": "Garc\u00eda de la Torre J, Hern\u00e1ndez-Cifre JG.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.3390/ijms27177791",
+        "pmid": "42737698",
+        "pmcid": "PMC13565817",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Dilute-solution properties are important sources of information on the structure of macromolecules. Analyzing experimental data and extracting information on structural properties require theoretical and computational resources. The resources needed to study rigid particles are manageable; however, studying flexible particles is more challenging. This is because, unlike rigid bodies, and as a consequence of the conformational variability arising from flexibility, flexible particles do not have a definite size and shape. In addition to their overall translational and rotational Brownian motion, the dynamics of flexible particles in solution has an internal component: size/shape conformational fluctuations. In order to facilitate the study of flexible macromolecule hydrodynamics, we have implemented existing theories within several computer programs. MONTEHYDRO combines Monte Carlo simulations based on the importance-sampling algorithm to generate conformations from which, in addition to conformational quantities, the hydrodynamic properties of flexible particles can be obtained using rigid-body treatment. SIMUFLEX is a suite based on a Brownian dynamics simulation of macromolecules, comprising BROWFLEX, for the generation of trajectories, and ANAFLEX, for the calculation of static and time-dependent properties as well as the simulation of single-particle events. In this paper, we present some concepts which are fundamental to the methods implemented in those computational tools, as well as examples of their utilization in various biomacromolecule applications, with a particular emphasis on double-stranded DNA in various cases: coarse-grained double-helical models for moderately short DNA; the worm-like model treatment of DNA over an extremely wide range of sizes (from 8 to 200,000 base pairs); and the problem of the anomalous rotational-speed dependence of the sedimentation coefficient of very long DNA. SIMUFLEX has also been particularly useful for studying intrinsically partially disordered proteins, whose structure comprises both ordered, globular domains as well as flexible tail and linker chains. To illustrate applications in the field of synthetic polymers, we describe a study on dendrimers, with aspects related to drug delivery in targeted therapies.",
+        "url": "https://doi.org/10.3390/ijms27177791"
+      },
+      {
+        "title": "Mimicking Cellular Membranes With Micropatterned Lipid Bilayers.",
+        "authors": "Nguyen TA, Xu Z, Schwille P.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/cphc.70534",
+        "pmid": "42629628",
+        "pmcid": "PMC13498719",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Studying the role of membranes in cell biophysics requires experimental models which faithfully capture the compositional and topological complexity of cellular structures. This is particularly important for membrane structures that are just at the limit of, or even below optical resolution, such as bacterial cells. Micropatterning is one of the key enabling technologies for the precise manipulation of compositional heterogeneity, morphology, and topography in artificial membranes, bringing in vitro models closer to cellular reality. This perspective highlights recent works which implement micropatterning to mimic cellular membranes and discuss how cellular mechanisms, specifically bacterial ones, may be addressed through the replication of membrane heterogeneity, confinement, and nano- and microscale topographical features. It spotlights micropatterning as an invaluable tool for quantitative studies to dissect the topological determinants of cellular function. A thorough understanding of these will lay the foundation for increasingly complex systems to be reconstructed in vitro.",
+        "url": "https://doi.org/10.1002/cphc.70534"
+      },
+      {
+        "title": "Enabling Biomolecular Simulations with Neural Network Potentials in GROMACS.",
+        "authors": "M\u00fcllender L, Hess B, Lindahl E.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jctc.6c00808",
+        "pmid": "42708678",
+        "pmcid": "PMC13564354",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Neural network potentials (NNPs) are rapidly changing the landscape of state-of-the-art molecular dynamics (MD) simulations. To make full use of this development, the community needs flexible, easy-to-use interfaces firmly integrated with existing methodologies. To address this, we present an interface for hybrid machine learning/molecular mechanics (ML/MM) simulations implemented in the widely used MD code GROMACS. The interface enables NNPs trained in the PyTorch framework to contribute energies and forces during MD simulations, either for selected subsets or entire molecular systems. By defining a flexible set of model inputs and outputs, the interface is agnostic to specific NNP architectures and can accommodate a wide range of descriptor-based and message-passing models. In particular, the design integrates NNP inference seamlessly into the extensive GROMACS molecular simulation ecosystem, providing users with the capability to straightforwardly combine NNPs with existing advanced sampling and free energy workflows. We demonstrate the capabilities of the interface using several representative applications, including enhanced sampling of peptide torsional free energy landscapes, absolute solvation free energy calculations, and protein-ligand simulations. We also run performance benchmarks on water boxes for several different NNP architectures. Our interface is available in recent GROMACS releases, and we believe it will provide a practical foundation for incorporating machine learning potentials into production MD simulations of biomolecular systems.",
+        "url": "https://doi.org/10.1021/acs.jctc.6c00808"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Torsional Diffusion for Molecular Conformer Generation",
+        "authors": "Bowen Jing, Gabriele Corso, Jeffrey Chang, Regina Barzilay, Tommi Jaakkola",
+        "journal": "Advances in Neural Information Processing Systems 35",
+        "pub_year": 2022,
+        "doi": "10.52202/068431-1760",
+        "type": "proceedings-article",
+        "citations": 18,
+        "abstract": null,
+        "url": "https://doi.org/10.52202/068431-1760"
+      },
+      {
+        "title": "Molecular dynamics computer simulation of chain molecule liquids",
+        "authors": "J.H.R. Clarke, D. Brown",
+        "journal": "Molecular Physics",
+        "pub_year": 1986,
+        "doi": "10.1080/00268978600101591",
+        "type": "journal-article",
+        "citations": 38,
+        "abstract": null,
+        "url": "https://doi.org/10.1080/00268978600101591"
+      },
+      {
+        "title": "DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing",
+        "authors": "Yangtian Zhang, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang",
+        "journal": "Advances in Neural Information Processing Systems 36",
+        "pub_year": 2023,
+        "doi": "10.52202/075280-2089",
+        "type": "proceedings-article",
+        "citations": 1,
+        "abstract": null,
+        "url": "https://doi.org/10.52202/075280-2089"
+      },
+      {
+        "title": "Protein Hunter: exploiting structure hallucination within diffusion for protein design",
+        "authors": "Yehlin Cho, Griffin Rangel, Gaurav Bhardwaj, Sergey Ovchinnikov",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2025.10.10.681530",
+        "type": "posted-content",
+        "citations": 11,
+        "abstract": "<jats:label>1</jats:label>\n                <jats:title>Abstract</jats:title>\n                <jats:p>Interactions between proteins and other biomolecules underlie nearly all biological processes, yet designing such interactions de novo remains challenging. Capturing their specific interactions and co-optimizing sequence and structure are difficult and often require extensive computation. We present Protein Hunter, a fast, fine-tuning-free framework for de novo protein design. Starting from an all-X sequence, we find diffusion-based structure prediction models hallucinate reasonable looking structures that can be further improved through iterative sequence re-design and structure re-prediction. This lightweight strategy achieves high AlphaFold3 in silico success rates across both unconditional and conditional generation tasks, including binders to proteins, cyclic peptides, small molecules, DNA, and RNA. Protein Hunter also supports multi-motif scaffolding and partial redesign, providing a general and efficient platform for de novo protein design across diverse molecular targets.</jats:p>",
+        "url": "https://doi.org/10.1101/2025.10.10.681530"
+      },
+      {
+        "title": "Calculation of Proteins\u2019 Total Side-Chain Torsional Entropy and Its Influence on Protein\u2013Ligand Interactions",
+        "authors": "Kateri H. DuBay, Phillip L. Geissler",
+        "journal": "Journal of Molecular Biology",
+        "pub_year": 2009,
+        "doi": "10.1016/j.jmb.2009.05.068",
+        "type": "journal-article",
+        "citations": 43,
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.jmb.2009.05.068"
+      }
+    ],
+    "arxiv": []
+  },
+  "IDP_Conformational_Ensemble_Diffusion": {
+    "query": "diffusion model intrinsically disordered protein conformational ensemble",
+    "europe_pmc": [
+      {
+        "title": "Dynamic microtubule-end structure governs multivalent kinetochore coupling by the Dam1c ring",
+        "authors": "Kalutskii M, Grubmueller H, Igaev M.",
+        "journal": "bioRxiv",
+        "pub_year": "2026",
+        "doi": "10.64898/2026.09.17.752406",
+        "pmid": null,
+        "pmcid": null,
+        "pub_type": null,
+        "source": "PPR",
+        "abstract": "Accurate chromosome segregation relies on kinetochores maintaining load-bearing attachments to dynamic microtubule ends, a coupling in which the Dam1 complex ring is central. How the microtubule-end structure and ring-microtubule interactions collectively determine attachment stability and drive force transduction remains unresolved. Here, we use multiscale modeling to show that the ring forms a \"fuzzy\" complex mediated by a dynamic network of intrinsically disordered regions, enabling both high-affinity binding and free diffusion along the microtubule lattice. Crucially, we find that this prototypic disordered-disordered protein complex provides most of the kinetochore-microtubule stabilization. By contrast, protofilament bending, commonly thought to drive force transduction, is sensitive to the arrangement of protofilaments along the ring and insufficient on its own to establish a robust coupling. The architecture of the dynamic microtubule end unifies these mechanisms by controlling both the progressive loss of fuzzy contacts and the resistance generated by protofilament bending. By accounting for the full conformational ensemble of microtubule structures, our model produces rupture forces similar to those previously measured and explains the distinct, tension-dependent behavior of kinetochore attachments to growing versus shortening microtubule ends. We propose that the Dam1 complex ring acts as a biased-diffusion coupler that probes and gradually remodels the evolving conformational landscape of the microtubule end under tension.",
+        "url": "https://doi.org/10.64898/2026.09.17.752406"
+      },
+      {
+        "title": "Local Geometry Recovers but Cooperative Structure Does Not: Residue-Resolved Limits of All-Atom Reconstruction from Single-Bead Coarse-Grained Disordered Protein Ensembles.",
+        "authors": "Huang J, Qiao X, Liu N, Chai Z, Lu S.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jcim.6c01701",
+        "pmid": "42670842",
+        "pmcid": null,
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) drive diverse cellular processes through broad conformational ensembles, but experimental characterization of these ensembles is sparse and high-quality training data is scarce, holding back artificial intelligence (AI) approaches to ensemble prediction. Single-bead coarse-grained (CG) force fields such as CALVADOS, parametrized directly against experimental observables, currently provide a more reliable route to disordered ensembles than direct AI prediction. CG sampling lacks atomistic resolution and must be paired with backmapping; the atomistic information recoverable from this two-step process is shaped jointly by the CG representation and the backmapping algorithm, and the interplay between these contributions is not well characterized. We benchmarked CODLAD, a recently published latent-diffusion backmapping pipeline, on 23 Protein Ensemble Database (PED) systems using a dual-input design: the same architecture receives either PED-reference C\u03b1 coordinates or independently sampled CALVADOS C\u03b1 trajectories. This design separates paired reconstruction error, measurable for PED+CODLAD, from unpaired CG-input-associated ensemble deviations, measurable for CG+CODLAD at the distribution level. Reconstruction from PED conformers achieved 0.56 \u00b1 0.08 \u00c5 backbone root-mean-square deviation and preserved local geometry. Reconstruction from CALVADOS-sampled C\u03b1 trajectories preserved the C\u03b1 framework and bond geometry, while ensemble-level deviations relative to PED were localized to proline backbone geometry and cooperative secondary structure, both consistent with information not carried by an unconstrained single-bead representation. The benchmark quantifies which atomistic properties can be recovered after projecting a CG ensemble into all-atom space and identifies improved CG geometric encoding and sequence-conditioned AI priors as the directions for further progress.",
+        "url": "https://doi.org/10.1021/acs.jcim.6c01701"
+      },
+      {
+        "title": "Hierarchical discrete representations for coarse-to-fine protein conformation generation.",
+        "authors": "On S, Jeong Y, Kim KH, Kang K, Kim ES.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/bioinformatics/btag611",
+        "pmid": "42599200",
+        "pmcid": "PMC13529360",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "<h4>Motivation</h4>Protein conformation generation remains a fundamental challenge in structural biology and machine learning. Proteins are highly dynamic macromolecules, and their functions are governed not only by static 3D structures but also by their conformational flexibility. Therefore, generating a diverse ensemble of physically plausible structures is crucial for modeling conformational heterogeneity, characterizing intrinsically disordered proteins (IDPs), and supporting structure-based drug discovery. However, existing generative models often operate in continuous coordinate space. This approach makes it difficult to impose structural priors or handle complex, long-range dependencies, frequently leading to a significant trade-off where models must sacrifice structural validity to ensure conformational diversity.<h4>Results</h4>To overcome these limitations, we propose a novel approach that learns hierarchical discrete representations of protein structures using vector quantization. Inspired by the success of VQ-VAE models in vision, we discretize residue-level structural contexts into learnable codebooks at multiple levels of granularity. Our framework first constructs a coarse-grained scaffold that captures global topology and secondary structures, and subsequently conditions on this scaffold to progressively refine the fine-grained local geometry. This coarse-to-fine generation mechanism enables both efficient sampling and highly accurate reconstruction. Through extensive experiments, we demonstrate that our method outperforms state-of-the-art models such as ESMDiff across challenging benchmark datasets, including BPTI MD trajectories and conformational-changing pairs (apo/holo and fold-switch). Our model mitigates the trade-off between conformational diversity and structural validity, generating realistic ensembles while providing interpretable and scalable representations of protein geometry. Ultimately, this work offers a powerful new paradigm for flexible biomolecular modeling.<h4>Availability and implementation</h4>The code is available at https://github.com/vanha9/hierarchical_conformation_generation. Archived at https://zenodo.org/records/21817083.",
+        "url": "https://doi.org/10.1093/bioinformatics/btag611"
+      },
+      {
+        "title": "Shape-shifting proteins and the subtlety in their form and function",
+        "authors": "Kulkarni P, Bhattacharya S, Mohanty A, Ramisetty S, Pisick E, Orban J, Uversky V, Weninger K, Huang S, Chou T, Sternberg P, Salgia R.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": null,
+        "pmid": null,
+        "pmcid": "PMC13577884",
+        "pub_type": null,
+        "source": "PMC",
+        "abstract": null,
+        "url": "https://europepmc.org/article/PMC/PMC13577884"
+      },
+      {
+        "title": "Navigating the uncharted: AI-driven advances in protein structure, dynamics, interactions and ligand interactions for understudied families.",
+        "authors": "Singh S, Singh R, Sharma S.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1186/s13040-026-00577-7",
+        "pmid": "42310771",
+        "pmcid": "PMC13523371",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "The structural and functional characterization of lesser-known protein families remains a major challenge in modern computational biology. Recent breakthroughs in artificial intelligence (AI) and machine learning (ML) have rapidly advanced these fields. This is particularly evident in overcoming the limitations of traditional modelling approaches, such as classical homology modelling and ab initio folding methods. This review traces the evolution of conventional methods to cutting-edge deep learning frameworks, such as AlphaFold2, RoseTTAFold, and transformer-based architectures. We explore how these AI-driven tools achieve near-experimental accuracy in structure prediction, model protein dynamics, and intrinsic disorder. We also addressed computational approaches for protein-protein interactions (PPIs), central to cellular function and interface-targeted drug design, alongside protein-ligand interactions, including novel generative methods. Two representative case studies targeting orphan G-protein-coupled receptors and intrinsically disordered regions demonstrate the transformative potential of these techniques for previously intractable systems. Despite these advances, significant challenges remain, including the need for experimental validation, effective modelling of protein flexibility, and ethical considerations surrounding AI-generated data. We also compare classical and AI-based structural biology pipelines, summarize key tools (e.g. transformers, graph neural networks, and diffusion models), and offer best practice guidelines for computational modelling and data visualization. These developments provide unprecedented insights into the dark proteome regions of the protein universe, enabling the structural illumination of previously uncharacterized and understudied proteins where structure or function was unknown. This review aims to serve as a roadmap for researchers seeking to harness AI innovations to tackle some of the most challenging aspects of proteomics.",
+        "url": "https://doi.org/10.1186/s13040-026-00577-7"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "The conformational ensemble of an intrinsically disordered protein explains peak shapes under DNP conditions",
+        "authors": "Jaka Kragelj, Rania Dumarieh, Yiling Xiao, Kendra K. Frederick",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2022.10.22.513343",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Elucidating the conformational preferences of regions of intrinsic disorder in biologically relevant contexts represents a frontier of structural biology. The sensitivity enhancements conferred by DNP enable structural studies of proteins in native contexts by MAS NMR. However, DNP requires low temperatures which results in broad peaks, particularly for for regions of intrinsic disorder. We describe an approach to predict and interpret peak shapes for frozen regions of intrinsic disorder in terms of dihedral angle populations. We demonstrate the method using the protein a-synuclein. This approach can be used to obtain experimental structural restraints for regions of intrinsic disorder in both simplified and biological settings, providing information that eludes characterization by diffraction-based methods as well as solution-state NMR spectroscopy and molecular dynamics due to molecular size limitations.</jats:p>",
+        "url": "https://doi.org/10.1101/2022.10.22.513343"
+      },
+      {
+        "title": "pH Induced Switch in the Conformational Ensemble of Intrinsically Disordered Protein Prothymosin and Its Implications for Amyloid Fibril Formation",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jpclett.2c01972.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jpclett.2c01972.s001"
+      },
+      {
+        "title": "Deeper Insight of the Conformational Ensemble of Intrinsically Disordered Proteins",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.4c00941.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.4c00941.s001"
+      },
+      {
+        "title": "Conformational Ensemble Dynamics of Intrinsically Disordered Full-Length - and Synuclein Monomers",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.5c01602.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.5c01602.s001"
+      },
+      {
+        "title": "Hyperphosphorylation of Intrinsically Disordered Tau Protein Induces an Amyloidogenic Shift in Its Conformational Ensemble",
+        "authors": "Adnan Sljoka, Shaolong Zhu, Agnesa Shala, Alexandr Bezginov, Gerald Audette, Derek J. Wilson",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.32920/14668836.v1",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:p>Tau is an intrinsically disordered protein (IDP) whose primary physiological role is to stabilize microtubules in neuronal axons at all stages of development. In Alzheimer's and other tauopathies, tau forms intracellular insoluble amyloid aggregates known as neurofibrillary tangles, a process that appears in many cases to be preceded by hyperphosphorylation of tau monomers. Understanding the shift in conformational bias induced by hyperphosphorylation is key to elucidating the structural factors that drive tau pathology, however, as an IDP, tau is not amenable to conventional structural characterization. In this work, we employ a straightforward technique based on Time-Resolved ElectroSpray Ionization Mass Spectrometry (TRESI-MS) and Hydrogen/Deuterium Exchange (HDX) to provide a detailed picture of residual structure in tau, and the shifts in conformational bias induced by hyperphosphorylation. By comparing the native and hyperphosphorylated ensembles, we are able to define specific conformational biases that can easily be rationalized as enhancing amyloidogenic propensity. Representative structures for the native and hyperphosphorylated tau ensembles were generated by refinement of a broad sample of conformations generated by low-computational complexity modeling, based on agreement with the TRESI-HDX profiles.</jats:p>",
+        "url": "https://doi.org/10.32920/14668836.v1"
+      }
+    ],
+    "arxiv": []
+  },
+  "IDP_Generative_Models": {
+    "query": "generative model intrinsically disordered protein ensemble PED",
+    "europe_pmc": [
+      {
+        "title": "Hierarchical discrete representations for coarse-to-fine protein conformation generation.",
+        "authors": "On S, Jeong Y, Kim KH, Kang K, Kim ES.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/bioinformatics/btag611",
+        "pmid": "42599200",
+        "pmcid": "PMC13529360",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "<h4>Motivation</h4>Protein conformation generation remains a fundamental challenge in structural biology and machine learning. Proteins are highly dynamic macromolecules, and their functions are governed not only by static 3D structures but also by their conformational flexibility. Therefore, generating a diverse ensemble of physically plausible structures is crucial for modeling conformational heterogeneity, characterizing intrinsically disordered proteins (IDPs), and supporting structure-based drug discovery. However, existing generative models often operate in continuous coordinate space. This approach makes it difficult to impose structural priors or handle complex, long-range dependencies, frequently leading to a significant trade-off where models must sacrifice structural validity to ensure conformational diversity.<h4>Results</h4>To overcome these limitations, we propose a novel approach that learns hierarchical discrete representations of protein structures using vector quantization. Inspired by the success of VQ-VAE models in vision, we discretize residue-level structural contexts into learnable codebooks at multiple levels of granularity. Our framework first constructs a coarse-grained scaffold that captures global topology and secondary structures, and subsequently conditions on this scaffold to progressively refine the fine-grained local geometry. This coarse-to-fine generation mechanism enables both efficient sampling and highly accurate reconstruction. Through extensive experiments, we demonstrate that our method outperforms state-of-the-art models such as ESMDiff across challenging benchmark datasets, including BPTI MD trajectories and conformational-changing pairs (apo/holo and fold-switch). Our model mitigates the trade-off between conformational diversity and structural validity, generating realistic ensembles while providing interpretable and scalable representations of protein geometry. Ultimately, this work offers a powerful new paradigm for flexible biomolecular modeling.<h4>Availability and implementation</h4>The code is available at https://github.com/vanha9/hierarchical_conformation_generation. Archived at https://zenodo.org/records/21817083.",
+        "url": "https://doi.org/10.1093/bioinformatics/btag611"
+      },
+      {
+        "title": "IDPEnsembleTools: An open-source library for analysis of conformational ensembles of disordered proteins.",
+        "authors": "Ghafouri H, Janson G, Tosatto SCE, Monzon AM.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/pro.70427",
+        "pmid": "41432303",
+        "pmcid": "PMC12724005",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) lack stable tertiary structure and instead exist as dynamic ensembles of conformations, playing essential roles in cellular regulation, signaling, and disease. As structural ensembles of IDPs become increasingly available through databases such as the Protein Ensemble Database (PED) and various computational generation methods, the need for systematic tools to analyze and compare these ensembles has grown. Here, we present IDPET (Intrinsically Disordered Protein Ensemble Tools), an open-source Python library designed to facilitate comprehensive analysis of IDP conformational ensembles. IDPET enables users to load and process ensembles from various sources and formats in parallel, compute global and local structural features, perform dimensionality reduction and clustering, and compare ensembles quantitatively using metrics based on Jensen-Shannon divergence (JSD). To demonstrate the package's functionalities, we analyze three ensembles of the unfolded drkN SH3 domain deposited in PED. This example illustrates how IDPET can extract structural descriptors, visualize conformational diversity, assess global and local features, and quantify differences between ensembles generated using distinct experimental and computational methods. By providing a reproducible and extensible framework, IDPET supports systematic exploration of ensemble features in IDPs. It is compatible with atomistic and coarse-grained models and can be easily integrated with community resources.",
+        "url": "https://doi.org/10.1002/pro.70427"
+      },
+      {
+        "title": "In Search of Shape in the Unshaped: Constructing Ensembles of Intrinsically Disordered Proteins.",
+        "authors": "Saha D, Yang W, Zheng W.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1063/5.0307183",
+        "pmid": "42147780",
+        "pmcid": "PMC13175138",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) lack stable tertiary structure under physiological conditions; instead, they exist as highly dynamic ensembles of interconverting conformations. Capturing these heterogeneous ensembles with sufficient accuracy is essential for uncovering the fundamental links between sequence characteristics, conformational preferences, and biological function. However, this remains a formidable challenge: experimental techniques typically provide observables that represent averages over a vast number of conformations, while computational approaches rely critically on the accuracy of parameters and the adequacy of conformational sampling. In this review, we provide a comprehensive framework for integrating experimental data and molecular simulations to construct realistic conformational ensembles of IDPs. We discuss strategies for interpreting ensemble-averaged experimental observables, developing physically grounded and transferable computational models, and refining simulated ensembles using experimental restraints. Together, these approaches offer practical guidelines for combining multiple sources of data, assessing ensemble convergence, and validating model predictions, thereby providing a robust route toward generating reliable and predictive ensembles that illuminate the intricate sequence-ensemble-function relationships underpinning disordered protein science.",
+        "url": "https://doi.org/10.1063/5.0307183"
+      },
+      {
+        "title": "AI-Physics-Experiment Trinity for Integrated Protein Dynamics Modeling.",
+        "authors": "Shi C, Low M, Xiu P, Lindorff-Larsen K, Wang Y.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/advs.76023",
+        "pmid": "42301231",
+        "pmcid": "PMC13336489",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Proteins exist as conformational ensembles, with dynamic transitions governing biological processes. Deciphering these dynamics demands integrating experimental data, physics-based simulations, and artificial intelligence (AI)-each with distinct strengths and limitations. Experiments deliver direct structural and dynamic benchmarks but are often constrained by insufficient spatiotemporal resolution or difficulties with providing information on transiently and weakly populated states. Physics-based methods may generate atomic-scale trajectories via force fields yet face sampling bottlenecks, force field sensitivity, and the curse of dimensionality. AI, particularly deep learning and generative modeling approaches, facilitates the efficient prediction of protein structures and conformational ensembles, as well as dimensionality reduction, yet is hindered by limited interpretability and transferability, and a scarcity of high-quality ground-truth data for training and benchmarking models of dynamics. This review outlines core principles of standalone approaches and highlights integrative strategies: experimental constraints guide physics-driven refinement; AI enhances experimental processing and ensemble generation; physics imparts plausibility to AI, while AI accelerates simulation sampling and force field optimization. We elaborate on this synergy, emphasizing physics-based modeling's glue-like role in reconciling heterogeneous datasets. Finally, we summarize persistent challenges and discuss future directions for integrated modeling of protein dynamics.",
+        "url": "https://doi.org/10.1002/advs.76023"
+      },
+      {
+        "title": "Constraint Decoupled Latent Diffusion for Protein Backmapping.",
+        "authors": "Han X, Sun Y, Chen K, Ren Y, Liu K, Ye Q.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jctc.5c01364",
+        "pmid": "41454855",
+        "pmcid": "PMC12805577",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Coarse-grained (CG) molecular dynamics simulations enable efficient exploration of protein conformational ensembles. However, reconstructing atomic details from CG structures (backmapping) remains a challenging problem. Current approaches face an inherent trade-off between maintaining atomistic accuracy and exploring diverse conformations, often necessitating complex constraint handling or extensive refinement steps. To address these challenges, we introduce a novel two-stage framework, named CODLAD (COnstraint Decoupled LAtent Diffusion). This framework first compresses atomic structures into discrete latent representations, explicitly embedding structural constraints, thereby decoupling constraint handling from generation. Subsequently, it performs efficient denoising diffusion in this latent space to produce structurally valid and diverse all-atom conformations. Comprehensive evaluations on diverse protein data sets demonstrate that CODLAD achieves state-of-the-art performance in atomistic accuracy, conformational diversity, and computational efficiency while exhibiting strong generalization across different protein systems.",
+        "url": "https://doi.org/10.1021/acs.jctc.5c01364"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Transferable deep generative modeling of intrinsically disordered protein conformations",
+        "authors": "Giacomo Janson, Michael Feig",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2024.02.08.579522",
+        "type": "posted-content",
+        "citations": 5,
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Intrinsically disordered proteins have dynamic structures through which they play key biological roles. The elucidation of their conformational ensembles is a challenging problem requiring an integrated use of computational and experimental methods. Molecular simulations are a valuable computational strategy for constructing structural ensembles of disordered proteins but are highly resource-intensive. Recently, machine learning approaches based on deep generative models that learn from simulation data have emerged as an efficient alternative for generating structural ensembles. However, such methods currently suffer from limited transferability when modeling sequences and conformations absent in the training data. Here, we develop a novel generative model that achieves high levels of transferability for intrinsically disordered protein ensembles. The approach, named idpSAM, is a latent diffusion model based on transformer neural networks. It combines an autoencoder to learn a representation of protein geometry and a diffusion model to sample novel conformations in the encoded space. IdpSAM was trained on a large dataset of simulations of disordered protein regions performed with the ABSINTH implicit solvent model. Thanks to the expressiveness of its neural networks and its training stability, idpSAM faithfully captures 3D structural ensembles of test sequences with no similarity in the training set. Our study also demonstrates the potential for generating full conformational ensembles from datasets with limited sampling and underscores the importance of training set size for generalization. We believe that idpSAM represents a significant progress in transferable protein ensemble modeling through machine learning.</jats:p>\n                <jats:sec>\n                  <jats:title>AUTHOR SUMMARY</jats:title>\n                  <jats:p>Proteins are essential molecules in living organisms and some of them have highly dynamical structures, which makes understanding their biological roles challenging. Disordered proteins can be studied through a combination of computer simulations and experiments. Computer simulations are often resource-intensive. Recently, machine learning has been used to make this process more efficient. The strategy is to learn from previous simulations to model the heterogenous conformations of proteins. However, such methods still suffer from poor transferability, meaning that they tend to make incorrect predictions on proteins not seen in training data. In this study, we present idpSAM, a method based on generative artificial intelligence for modeling the structures of disordered proteins. The model was trained using a vast dataset and, thanks to its architecture and training procedure, it performs well on not just proteins in the training set but achieves high levels transferability to proteins unseen in training. This advancement is a step forward in modeling biologically relevant disordered proteins. It shows how the combination of generative modeling and large training sets and can aid us understand how dynamical proteins behave.</jats:p>\n                </jats:sec>",
+        "url": "https://doi.org/10.1101/2024.02.08.579522"
+      },
+      {
+        "title": "Spontaneous Formation of Cushioned Model Membranes Promoted by an Intrinsically Disordered Protein",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.37473/fic/10.1021/acs.langmuir.0c00120",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.37473/fic/10.1021/acs.langmuir.0c00120"
+      },
+      {
+        "title": "Spontaneous Formation of Cushioned Model Membranes Promoted by an Intrinsically Disordered Protein",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.37473/dac/10.1021/acs.langmuir.0c00120",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.37473/dac/10.1021/acs.langmuir.0c00120"
+      },
+      {
+        "title": "Assessing Allostery in Intrinsically Disordered Proteins With Ensemble Allosteric Model",
+        "authors": "Jing Li, Vincent J. Hilser",
+        "journal": "Methods in Enzymology",
+        "pub_year": 2018,
+        "doi": "10.1016/bs.mie.2018.09.004",
+        "type": "book-chapter",
+        "citations": 11,
+        "abstract": null,
+        "url": "https://doi.org/10.1016/bs.mie.2018.09.004"
+      },
+      {
+        "title": "Accurate and Fast Prediction of Intrinsically Disordered Protein by Multiple Protein Language Models and Ensemble Learning",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.3c01202.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.3c01202.s001"
+      }
+    ],
+    "arxiv": []
+  },
+  "Protein_Ensemble_Database_ML": {
+    "query": "Protein Ensemble Database generative model machine learning",
+    "europe_pmc": [
+      {
+        "title": "Hierarchical discrete representations for coarse-to-fine protein conformation generation.",
+        "authors": "On S, Jeong Y, Kim KH, Kang K, Kim ES.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/bioinformatics/btag611",
+        "pmid": "42599200",
+        "pmcid": "PMC13529360",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "<h4>Motivation</h4>Protein conformation generation remains a fundamental challenge in structural biology and machine learning. Proteins are highly dynamic macromolecules, and their functions are governed not only by static 3D structures but also by their conformational flexibility. Therefore, generating a diverse ensemble of physically plausible structures is crucial for modeling conformational heterogeneity, characterizing intrinsically disordered proteins (IDPs), and supporting structure-based drug discovery. However, existing generative models often operate in continuous coordinate space. This approach makes it difficult to impose structural priors or handle complex, long-range dependencies, frequently leading to a significant trade-off where models must sacrifice structural validity to ensure conformational diversity.<h4>Results</h4>To overcome these limitations, we propose a novel approach that learns hierarchical discrete representations of protein structures using vector quantization. Inspired by the success of VQ-VAE models in vision, we discretize residue-level structural contexts into learnable codebooks at multiple levels of granularity. Our framework first constructs a coarse-grained scaffold that captures global topology and secondary structures, and subsequently conditions on this scaffold to progressively refine the fine-grained local geometry. This coarse-to-fine generation mechanism enables both efficient sampling and highly accurate reconstruction. Through extensive experiments, we demonstrate that our method outperforms state-of-the-art models such as ESMDiff across challenging benchmark datasets, including BPTI MD trajectories and conformational-changing pairs (apo/holo and fold-switch). Our model mitigates the trade-off between conformational diversity and structural validity, generating realistic ensembles while providing interpretable and scalable representations of protein geometry. Ultimately, this work offers a powerful new paradigm for flexible biomolecular modeling.<h4>Availability and implementation</h4>The code is available at https://github.com/vanha9/hierarchical_conformation_generation. Archived at https://zenodo.org/records/21817083.",
+        "url": "https://doi.org/10.1093/bioinformatics/btag611"
+      },
+      {
+        "title": "AI-Physics-Experiment Trinity for Integrated Protein Dynamics Modeling.",
+        "authors": "Shi C, Low M, Xiu P, Lindorff-Larsen K, Wang Y.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/advs.76023",
+        "pmid": "42301231",
+        "pmcid": "PMC13336489",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Proteins exist as conformational ensembles, with dynamic transitions governing biological processes. Deciphering these dynamics demands integrating experimental data, physics-based simulations, and artificial intelligence (AI)-each with distinct strengths and limitations. Experiments deliver direct structural and dynamic benchmarks but are often constrained by insufficient spatiotemporal resolution or difficulties with providing information on transiently and weakly populated states. Physics-based methods may generate atomic-scale trajectories via force fields yet face sampling bottlenecks, force field sensitivity, and the curse of dimensionality. AI, particularly deep learning and generative modeling approaches, facilitates the efficient prediction of protein structures and conformational ensembles, as well as dimensionality reduction, yet is hindered by limited interpretability and transferability, and a scarcity of high-quality ground-truth data for training and benchmarking models of dynamics. This review outlines core principles of standalone approaches and highlights integrative strategies: experimental constraints guide physics-driven refinement; AI enhances experimental processing and ensemble generation; physics imparts plausibility to AI, while AI accelerates simulation sampling and force field optimization. We elaborate on this synergy, emphasizing physics-based modeling's glue-like role in reconciling heterogeneous datasets. Finally, we summarize persistent challenges and discuss future directions for integrated modeling of protein dynamics.",
+        "url": "https://doi.org/10.1002/advs.76023"
+      },
+      {
+        "title": "From Ternary Modeling to Predictive PROTAC Design: A Computational Perspective.",
+        "authors": "Schulz JM, Reynolds RC, Sch\u00fcrer SC.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jcim.6c01824",
+        "pmid": "42670840",
+        "pmcid": "PMC13508781",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Proteolysis-targeting chimeras (PROTACs) are heterobifunctional small molecules that induce targeted protein degradation by recruiting an E3 ligase to a protein of interest. Since 2019, publication volume has accelerated, and computational methods have expanded from isolated demonstrations into practical tools for modeling PROTAC-induced ternary complexes, designing linkers, and forecasting degradation-related outcomes. Here, we present a Perspective on computational PROTAC methodologies published from 2019 to the present, organizing the field into two complementary streams: (i) constraint-driven, physics-based workflows that assemble and refine ternary complex models by enforcing geometric feasibility and evaluating pose stability using docking and molecular simulation; and (ii) data-driven workflows, including deep learning predictors and generative models that predict ternary complex structure, degradation end points, or linker chemistry from structural and assay data. We highlight representative approaches spanning restrained/tethered docking, MD-based refinement and dynamic stability scoring, coarse-grained free-energy modeling, SE(3)/E(3)-equivariant structure prediction, supervised degradation efficacy prediction, and generative linker design. We close by emphasizing persistent gaps, fragmented benchmarking, score robustness across targets and E3 ligases, and nonstandard molecular representations that currently limit generalization and reproducible, pipeline-ready deployment.",
+        "url": "https://doi.org/10.1021/acs.jcim.6c01824"
+      },
+      {
+        "title": "Generative Chemistry Platform for Small Molecules Targeting RNA: A Case Study for Chemical Optimization.",
+        "authors": "Allen TEH, Boyd SM, Bonnet M, Khan RT.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.34133/csbj.0218",
+        "pmid": "42724149",
+        "pmcid": "PMC13558819",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "We introduce the Serna Bio GenAI platform, a generative chemistry and multiparametric optimization platform for the design of RNA-targeting small molecules. Targeting RNA with small molecules has proven historically challenging but offers notable potential upsides, including access to unique mechanisms of action and the ability to target otherwise untargetable genes. We consider a major challenge here to be designing chemistry specific to RNA-targeting. Molecular design is a valuable application of artificial intelligence in drug discovery, but many publicly available models use training data focused on protein-targeting-the modality best historically explored in drug discovery. We showcase the difference and value in building a specifically RNA-targeting platform, comparing its performance to state-of-the-art public chemical generators, and experimentally validating its chemical designs in comparison to chemistry designed by a human expert.",
+        "url": "https://doi.org/10.34133/csbj.0218"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Ensemble Machine Learning Model for Software Defect Prediction",
+        "authors": "",
+        "journal": "Advances in Machine Learning &amp; Artificial Intelligence",
+        "pub_year": 2021,
+        "doi": "10.33140/amlai.02.01.03",
+        "type": "journal-article",
+        "citations": 7,
+        "abstract": "<jats:p>Software defect prediction is a significant activity in every software firm. It helps in producing quality software by reliable defect prediction, defect elimination, and prediction of modules that are susceptible to defect. Several researchers have proposed different software prediction approaches in the past. However, these conventional software defect predictions are prone to low classification accuracy, time-consuming, and tasking. This paper aims to develop a novel multi-model ensemble machine-learning for software defect prediction. The ensemble technique can reduce inconsistency among training and test datasets and eliminate bias in the training and testing phase of the model, thereby overcoming the downsides that have characterized the existing techniques used for the prediction of a software defect. To address these shortcomings, this paper proposes a new ensemble machine-learning model for software defect prediction using k Nearest Neighbour (kNN), Generalized Linear Model with Elastic Net Regularization (GLMNet), and Linear Discriminant Analysis (LDA) with Random Forest as base learner. Experiments were conducted using the proposed model on CM1, JM1, KC3, and PC3 datasets from the NASA PROMISE repository using the RStudio simulation tool. The ensemble technique achieved 87.69% for CM1 dataset, 81.11% for JM1 dataset, 90.70% for PC3 dataset, and 94.74% for KC3 dataset. The performance of the proposed system was compared with that of other existing techniques in literature in terms of AUC. The ensemble technique achieved 87%, which is better than the other seven state-of-the-art techniques under consideration. On average, the proposed model achieved an overall prediction accuracy of 88.56% for all datasets used for experiments. The results demonstrated that the ensemble model succeeded in effectively predicting the defects in PROMISE datasets that are notorious for their noisy features and high dimensions. This shows that ensemble machine learning is promising and the future of software defect prediction.</jats:p>",
+        "url": "https://doi.org/10.33140/amlai.02.01.03"
+      },
+      {
+        "title": "Generative machine learning methods for multivariate ensemble post-processing",
+        "authors": "Sebastian Lerch, Jieyu Chen",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.5194/ems2022-195",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:p>&amp;lt;p&amp;gt;Ensemble weather predictions typically show systematic errors that need to be corrected via post-processing. While much research interest has been focused on univariate approaches, many practical applications such as energy forecasting, hydrological applications and air traffic management require accurate modeling of spatial, temporal, and inter-variable dependencies. Over the past years, a variety of two-step approaches where ensemble predictions are first post-processed separately in each margin and multivariate dependencies are restored via copula functions in a second step has been proposed to address this need [1]. However, these approaches share common limitations in that incorporating additional predictor variables beyond forecasts of the variable of interest is not possible in a straightforward manner in specifying the copula functions that govern the multivariate dependence structure, which makes it challenging to draw from substantial benefits that have recently been demonstrated in the context of univariate post-processing [2].&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;To address this challenge, we propose a novel data-driven one-step approach to multivariate ensemble post-processing based on conditional generative machine learning&amp;amp;#160; which allows for obtaining multivariate probabilistic forecasts directly as output of a generative neural network while incorporating additional exogenous variables as predictors. In case studies on multivariate probabilistic forecasts of surface temperature and wind speed at observation stations in Germany, our conditional generative models show state-of-the-art forecast performance and advantages over benchmark approaches, for example by allowing for generating an arbitrary number of samples from the multivariate&amp;amp;#160; forecast distributions.&amp;amp;#160;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;References&amp;lt;br&amp;gt;[1]&amp;amp;#160; Lerch, S. et al. (2020) Simulation-based comparison of multivariate ensemble post-processing methods. Nonlinear Processes in Geophysics, 27: 349&amp;amp;#8211;371&amp;lt;br&amp;gt;[2] Rasp, S. and Lerch, S. (2018) Neural networks for post-processing ensemble weather forecasts. Monthly Weather Review, 146(11): 3885&amp;amp;#8211;3900&amp;lt;/p&amp;gt;</jats:p>",
+        "url": "https://doi.org/10.5194/ems2022-195"
+      },
+      {
+        "title": "Generative machine learning methods for multivariate ensemble post-processing",
+        "authors": "Jieyu Chen, Sebastian Lerch, Tim Janke",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.5194/egusphere-egu22-921",
+        "type": "posted-content",
+        "citations": 5,
+        "abstract": "<jats:p>&amp;lt;p&amp;gt;Statistical post-processing of ensemble forecasts has become a common practice in research to correct biases and errors in calibration. While many of the developments have been focused on univariate methods that calibrate the marginal distributions, practical applications often require accurate modeling of spatial, temporal, and inter-variable dependencies. Copula-based multivariate post-processing methods, such as ensemble copula coupling, have been proposed to address this issue and proceed by reordering univariately post-processed ensembles with copula functions to retain the dependence structure. We propose a novel multivariate post-processing method based on generative machine learning where post-processed multivariate ensemble forecasts are generated from random noise, conditional on the inputs of raw ensemble forecasts. Moving beyond the two-step strategy of separately modeling marginal distributions and multivariate dependence structure, the generative modelling approach allows for directly obtaining multivariate probabilistic forecasts as output. The flexibility of the generative model also enables us to incorporate additional predictors straightforwardly and to generate an arbitrary number of post-processed ensemble members. In a case study on the surface temperature and wind speed forecasts from the European Centre of Medium-Range Weather Forecasts at weather stations in Germany, our generative model that incorporates additional weather predictors substantially improves upon the multivariate spatial forecasts from copula-based approaches. And the model shows competitive performance even with state-of-the-art neural network-based post-processing models applied for the marginal distributions.&amp;lt;/p&amp;gt;</jats:p>",
+        "url": "https://doi.org/10.5194/egusphere-egu22-921"
+      },
+      {
+        "title": "Reinforced molecular dynamics: Physics-infused generative machine learning model simulates protein motion",
+        "authors": "Istv\u00e1n Kolossv\u00e1ry",
+        "journal": "PNAS Nexus",
+        "pub_year": 2026,
+        "doi": "10.1093/pnasnexus/pgaf408",
+        "type": "journal-article",
+        "citations": 3,
+        "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>We propose a simple and practical machine learning-based desktop solution for analyzing biologically relevant protein motions. We termed our technology reinforced molecular dynamics (rMD) combining MD trajectory data and free-energy (FE) map data to train a dual loss function autoencoder network that can explore conformational space retroactively with no need for additional simulations. The key insight of rMD is that it replaces the latent space with an FE map for structure prediction, thus infusing the autoencoder network with physical context. The FE map is computed from a biased MD simulation over a low-dimensional collective variable (CV) space that captures some biological function. In the proposed rMD framework, the FE map can then be used directly to generate more protein structures in poorly sampled regions or to follow alternative paths in CV space to explore multiple conformational transitions. The rMD technology is entirely self-contained, does not rely on any pretrained model, and can be run on a GPU desktop computer. We present our rMD computations in a key area of molecular-glue degraders aimed at a deeper understanding of the structural transition from open to closed conformations of CRBN.</jats:p>",
+        "url": "https://doi.org/10.1093/pnasnexus/pgaf408"
+      },
+      {
+        "title": "Cardiovascular Disease Prediction with Machine Learning",
+        "authors": "Yuvaraj Duraisamy, Salar Faisal Noori, Shakir Mahoomed Abas",
+        "journal": "Generative Artificial Intelligence",
+        "pub_year": 2025,
+        "doi": "10.1002/9781394209835.ch12",
+        "type": "other",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1002/9781394209835.ch12"
+      }
+    ],
+    "arxiv": []
+  },
+  "EigenFold_Ensemble": {
+    "query": "EigenFold generative protein structure diffusion",
+    "europe_pmc": [
+      {
+        "title": "Hierarchical discrete representations for coarse-to-fine protein conformation generation.",
+        "authors": "On S, Jeong Y, Kim KH, Kang K, Kim ES.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/bioinformatics/btag611",
+        "pmid": "42599200",
+        "pmcid": "PMC13529360",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "<h4>Motivation</h4>Protein conformation generation remains a fundamental challenge in structural biology and machine learning. Proteins are highly dynamic macromolecules, and their functions are governed not only by static 3D structures but also by their conformational flexibility. Therefore, generating a diverse ensemble of physically plausible structures is crucial for modeling conformational heterogeneity, characterizing intrinsically disordered proteins (IDPs), and supporting structure-based drug discovery. However, existing generative models often operate in continuous coordinate space. This approach makes it difficult to impose structural priors or handle complex, long-range dependencies, frequently leading to a significant trade-off where models must sacrifice structural validity to ensure conformational diversity.<h4>Results</h4>To overcome these limitations, we propose a novel approach that learns hierarchical discrete representations of protein structures using vector quantization. Inspired by the success of VQ-VAE models in vision, we discretize residue-level structural contexts into learnable codebooks at multiple levels of granularity. Our framework first constructs a coarse-grained scaffold that captures global topology and secondary structures, and subsequently conditions on this scaffold to progressively refine the fine-grained local geometry. This coarse-to-fine generation mechanism enables both efficient sampling and highly accurate reconstruction. Through extensive experiments, we demonstrate that our method outperforms state-of-the-art models such as ESMDiff across challenging benchmark datasets, including BPTI MD trajectories and conformational-changing pairs (apo/holo and fold-switch). Our model mitigates the trade-off between conformational diversity and structural validity, generating realistic ensembles while providing interpretable and scalable representations of protein geometry. Ultimately, this work offers a powerful new paradigm for flexible biomolecular modeling.<h4>Availability and implementation</h4>The code is available at https://github.com/vanha9/hierarchical_conformation_generation. Archived at https://zenodo.org/records/21817083.",
+        "url": "https://doi.org/10.1093/bioinformatics/btag611"
+      },
+      {
+        "title": "Designing flexible protein structures and sampling protein conformations with a unified model using vector quantization and diffusion.",
+        "authors": "Liu Y, Chen L, Chen Q, Liu H.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1093/nsr/nwaf290",
+        "pmid": "41245953",
+        "pmcid": "PMC12618002",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Conformational dynamics are often critical for protein functions. There is strong interest in deep learning models to predict the conformational distributions of proteins or design protein structures that can host rich conformational dynamics. Here we report PVQD (Protein Vector Quantization and Diffusion), a method using a vector-quantized auto-encoder to learn protein backbone latent representations and latent-space diffusion for backbone generation and for conformation sampling conditioned on native sequences. Comparisons show PVQD generates backbones with natural-like compositions of secondary structures, loop lengths, and domain sizes. In sampling conformations of natural proteins, PVQD better reproduces experimental structural variations in benchmark proteins than existing approaches. For K-Ras, KaiB, 4.1G CTD, and D-allose binding proteins, PVQD captures sequence-dependent effects on functional conformational dynamics. Thus, the latent space diffusion approach forms a valuable framework that can unify the prediction and design of protein structures with the capability of modeling conformational dynamics.",
+        "url": "https://doi.org/10.1093/nsr/nwaf290"
+      },
+      {
+        "title": "Review of diffusion models and its applications in biomedical informatics.",
+        "authors": "Luo J, Yang L, Liu Y, Hu C, Wang G, Yang Y, Yang TL, Zhou X.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1186/s12911-025-03210-5",
+        "pmid": "41121196",
+        "pmcid": "PMC12541957",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "The diffusion model, a cutting-edge deep generative technique, is gaining traction in biomedical informatics, showcasing promising applications across various domains. This review presents an overview of the working principles, categories, and numerous applications of diffusion models in biomedical research. In medical imaging, these models, through frameworks like Denoising Diffusion Probabilistic Models (DDPMs) and Stochastic Differential Equations (SDE), offer advanced solutions for image generation, reconstruction, segmentation, and denoising. Notably, they\u2019ve been employed in synthesizing 2D/3D medical images, MRI, and PET image reconstruction, and segmentation tasks such as labeled MRI generation. In the realm of structured Electronic Health Records (EHR) data, diffusion models excel in data synthesis, offering innovative approaches in the face of challenges like data privacy and data gaps. Furthermore, these models are proving pivotal in physiological signal domains, such as EEG and ECG, for signal generation and restoration amidst data loss and noise disruptions. Another significant application lies in the design and prediction of small molecules and protein structures. These models unveil profound insights into the vast molecular space, guiding endeavors in drug design, molecular docking, and antibody construction. Despite their potential, there are inherent limitations, emphasizing the need for further research, validation, interdisciplinary collaboration, and robust benchmarking to ensure practical reliability and efficiency. This review seeks to shed light on the profound capabilities and challenges of diffusion models in the rapidly evolving landscape of biomedical research.",
+        "url": "https://doi.org/10.1186/s12911-025-03210-5"
+      },
+      {
+        "title": "Beyond static structures: protein dynamic conformations modeling in the post-AlphaFold era.",
+        "authors": "Cui X, Ge L, Chen X, Lv Z, Wang S, Zhou X, Zhang G.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1093/bib/bbaf340",
+        "pmid": "40663654",
+        "pmcid": "PMC12262120",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "The emergence of deep learning, particularly AlphaFold, has revolutionized static protein structure prediction, marking a transformative milestone in structural biology. However, protein function is not solely determined by static three-dimensional structures but is fundamentally governed by dynamic transitions between multiple conformational states. This shift from static to multi-state representations is crucial for understanding the mechanistic basis of protein function and regulation. This review outlines the fundamental concepts of protein dynamic conformations, surveys recent computational advances in modeling these dynamics in the post-AlphaFold era, and highlights key challenges, including data limitations, methodological constraints, and evaluation metrics. We also discuss potential strategies to address these challenges and explore future research directions to deepen our understanding of protein dynamics and their functional implications. This work aims to provide insights and perspectives to facilitate the ongoing development of protein conformation studies in the era of artificial intelligence-driven structural biology.",
+        "url": "https://doi.org/10.1093/bib/bbaf340"
+      },
+      {
+        "title": "Sifting through the noise: A survey of diffusion probabilistic models and their applications to biomolecules.",
+        "authors": "Norton T, Bhattacharya D.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1016/j.jmb.2024.168818",
+        "pmid": "39389290",
+        "pmcid": "PMC11885034",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Diffusion probabilistic models have made their way into a number of high-profile applications since their inception. In particular, there has been a wave of research into using diffusion models in the prediction and design of biomolecular structures and sequences. Their growing ubiquity makes it imperative for researchers in these fields to understand them. This paper serves as a general overview for the theory behind these models and the current state of research. We first introduce diffusion models and discuss common motifs used when applying them to biomolecules. We then present the significant outcomes achieved through the application of these models in generative and predictive tasks. This survey aims to provide readers with a comprehensive understanding of the increasingly critical role of diffusion models.",
+        "url": "https://doi.org/10.1016/j.jmb.2024.168818"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "End-to-end protein-ligand complex structure generation with diffusion-based generative models",
+        "authors": "Shuya Nakata, Yoshiharu Mori, Shigenori Tanaka",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2022.12.20.521309",
+        "type": "posted-content",
+        "citations": 3,
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Three-dimensional structures of protein-ligand complexes provide valuable insights into their interactions and are crucial for molecular biological studies and drug design. However, their high-dimensional and multimodal nature hinders end-to-end modeling, and earlier approaches depend inherently on existing protein structures. To overcome these limitations and expand the range of complexes that can be accurately modeled, it is necessary to develop efficient end-to-end methods. We introduce an equivariant diffusion-based generative model that learns the joint distribution of ligand and protein conformations conditioned on the molecular graph of a ligand and the sequence representation of a protein extracted from a pre-trained protein language model. Benchmark results show that this protein structure-free model is capable of generating diverse structures of protein-ligand complexes, including those with correct binding poses. Further analyses indicate that the proposed end-to-end approach is particularly effective when the ligand-bound protein structure is not available. The present results demonstrate the effectiveness and generative capability of our end-to-end complex structure modeling framework with diffusion-based generative models. We suppose that this framework will lead to better modeling of protein-ligand complexes, and we expect further improvements and wide applications.</jats:p>",
+        "url": "https://doi.org/10.1101/2022.12.20.521309"
+      },
+      {
+        "title": "Review for \"DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding\"",
+        "authors": "",
+        "journal": null,
+        "pub_year": 2024,
+        "doi": "10.1039/d4sc05894a/v1/review2",
+        "type": "peer-review",
+        "citations": 1,
+        "abstract": null,
+        "url": "https://doi.org/10.1039/d4sc05894a/v1/review2"
+      },
+      {
+        "title": "Review for \"DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding\"",
+        "authors": "",
+        "journal": null,
+        "pub_year": 2024,
+        "doi": "10.1039/d4sc05894a/v1/review1",
+        "type": "peer-review",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1039/d4sc05894a/v1/review1"
+      },
+      {
+        "title": "Review for \"DiffBP: Generative Diffusion of 3D Molecules for Target Protein Binding\"",
+        "authors": "",
+        "journal": null,
+        "pub_year": 2024,
+        "doi": "10.1039/d4sc05894a/v2/review1",
+        "type": "peer-review",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1039/d4sc05894a/v2/review1"
+      },
+      {
+        "title": "Generative AI for 3D Molecular Structure Prediction Using Diffusion Models",
+        "authors": "Raghab Singh",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.36227/techrxiv.176116525.52768705/v1",
+        "type": "posted-content",
+        "citations": 1,
+        "abstract": "<jats:p>The ability to generate stable molecular structures is crucial for advancements in computational chemistry and materials science. This study explores a generative AI framework that leverages diffusion-based learning to construct threedimensional molecular conformations. By incorporating graphbased representations and geometric constraints, the model ensures structural validity while capturing atomic interactions. Experimental evaluations demonstrate improved accuracy in molecular stability compared to conventional generative approaches. These findings highlight the potential of AI-driven methodologies for accelerating molecular design and discovery.</jats:p>",
+        "url": "https://doi.org/10.36227/techrxiv.176116525.52768705/v1"
+      }
+    ],
+    "arxiv": []
+  },
+  "Torsion_Space_Protein_Diffusion": {
+    "query": "protein backbone torsion angle diffusion model phi psi",
+    "europe_pmc": [
+      {
+        "title": "Improving Protein Structure Determination by Integrating Ensemble-Driven Molecular Dynamics with Chemical Shift-Based Restraints.",
+        "authors": "Gadanecz M, Fazekas Z, Menyh\u00e1rd DK, Perczel A.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jcim.5c02358",
+        "pmid": "41697239",
+        "pmcid": "PMC12977052",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "We present a protocol for nuclear magnetic resonance (NMR) chemical shift-based structure determination that employs ensemble-driven molecular dynamics (EDMD) for structure refinement. Here, specifically, Chemical-Shift-Rosetta (CS-Rosetta) was applied, followed by EDMD. EDMD eliminates the need to predict chemical shifts at every molecular dynamics (MD) step by defining continuous, differentiable potential energy functions (PEFs) based on dihedral angle distributions from CS-Rosetta models while incorporating the measurement temperature. This yielded a thermodynamically realistic, experiment-based custom force field for each studied system. We benchmarked EDMD against 5 proteins (13.1-19.2 kDa), focusing on systems with nonprotein components and demonstrated its consistent improvement of backbone root-mean-square deviation (RMSD) relative to known reference structures over the original CS-Rosetta ensemble. Moreover, EDMD enhanced the fulfillment of NOE-derived (nuclear Overhauser effect) distance restraints compared to the results of CS-Rosetta and unrestrained MD simulations. EDMD also improved NOE-RASREC-Rosetta (resolution-adapted structural recombination Rosetta protocol supplemented with NOE-based distance restraints) models and maintained the correct protein-ligand conformations. This approach provides an opportunity to refine nonconverged CS-Rosetta structure calculations, where the results would not be interpretable otherwise. EDMD can be generalized to any ensemble with scoring information, enabling refined exploration of the \u03c6/\u03c8 phase space and accurate reinsertion of nonprotein moieties.",
+        "url": "https://doi.org/10.1021/acs.jcim.5c02358"
+      },
+      {
+        "title": "Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches.",
+        "authors": "Barnett AJ, Kc R, Pandey P, Somasiri P, Fairfax KA, Hung S, Hewitt AW.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1093/gpbjnl/qzag014",
+        "pmid": "41693001",
+        "pmcid": "PMC13472679",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Recent advances in artificial intelligence have led to the development of generative models for de novo protein design. In this study, we compared 13 state-of-the-art generative protein models, assessing their ability to produce feasible, diverse, and novel protein monomers. Structural diffusion models generally create designs with higher confidence in predicted structures and more biologically plausible energy distributions, but exhibit limited diversity and strong sequence biases. Conversely, protein language models generate more diverse and novel designs but with lower structural confidence. We also evaluated the ability of these models to generate unique proteins, conditionally based on the tobacco etch virus (TEV) protease. Generative models are successful in producing functional enzymes, albeit with diminished activity compared to the wild-type TEV. Our systematic benchmarking provides a foundation for evaluating and selecting generative protein models, while highlighting the complementary strengths of different generative paradigms. This framework will facilitate informed application of these tools for biomedical\u00a0engineering and design.",
+        "url": "https://doi.org/10.1093/gpbjnl/qzag014"
+      },
+      {
+        "title": "Higher-Level Structural Classification of Pseudomonas Cyclic Lipopeptides through Their Bioactive Conformation.",
+        "authors": "Kov\u00e1cs B, Prasad D, De Roo V, Vanheede M, Muangkaew P, Madder A, H\u00f6fte M, De Mot R, Geudens N, Martins JC.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/advs.202520365",
+        "pmid": "41391051",
+        "pmcid": "PMC12948218",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Cyclic lipodepsipeptides (CLiPs) from Pseudomonas are membrane-targeting specialized metabolites with diverse ecological roles and antimicrobial activities. Over the past decades, significant efforts have been made to reveal their chemical constitution and configuration, thus providing the starting point to establishing structure-function correlations, deriving molecular-level understanding of their mode of action, and ultimately harnessing their potential in plant biocontrol and clinical applications. The sheer diversity in chemical structures, combined with a few scattered reports of 3D structures, has limited advances in these areas. The solution conformations of eight antimicrobial, non-phytotoxic Pseudomonas CLiPs, each representing a distinct family, are presented, obtained using a consistent NMR and molecular dynamics protocol in dodecylphosphocholine micelles. All CLiP conformations share a left-handed \u03b1-helix forming a stapled or catch-pole helix motif depending on the number of residues in the macrocycle. This structural dichotomy is validated through a synthetic analogue of the naturally occurring orfamide A featuring an alternative, more constricted macrocycle. The two motifs define distinct superfamilies encompassing most known Pseudomonas CLiPs, offering a new, coherent framework for their structural classification that is also reflected in the organization of their biosynthetic gene cluster. The findings support future homology modelling and molecular design efforts for these metabolites.",
+        "url": "https://doi.org/10.1002/advs.202520365"
+      },
+      {
+        "title": "Multidomain DNA-Protein Mining Reveals Polymorphic Variations in RhlB Enhancing Monorhamnolipid Biosynthesis.",
+        "authors": "Trus P, Chang CY.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acssynbio.5c00828",
+        "pmid": "41996192",
+        "pmcid": "PMC13185158",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Rhamnolipids are glycolipid biosurfactants produced by <i>Pseudomonas aeruginosa</i>, valued for their surface activity, biodegradability, and potential as green alternatives to synthetic surfactants. The first rhamnosylation step, catalyzed by RhlB, is central to the catalytic efficiency of monorhamnolipid formation and subsequent dirhamnolipid biosynthesis. To explore natural diversity and enhance RhlB activity, we established a multilayer DNA-protein mining pipeline to identify polymorphisms influencing catalytic activity. The framework integrated analyses of nucleotide transitions/transversions, mutation patterns, binding-site configurations, stability hotspots, and active-site plasticity. Phylogenetic analysis revealed two hypermutator phylogroups, highlighting evolutionary divergence within RhlB. Three <i>rhlB</i> variants (<i>rhlB1</i>, <i>rhlB2</i>, <i>rhlB3</i>) were experimentally validated in a modular <i>rhlAB</i> genetic construct for monorhamnolipid biosynthesis in <i>Escherichia coli</i>. Using a defined synthetic medium and high-throughput screening platform, monorhamnolipid production was quantified as 20.1 \u03bcg mL<sup>-1</sup> for the reference <i>rhlAB</i> construct, 22.18 \u03bcg mL<sup>-1</sup> for <i>rhlAB</i>1, 3.2 \u03bcg mL<sup>-1</sup> for the dysfunctional <i>rhlAB</i>2, and 55.51 \u03bcg mL<sup>-1</sup> for <i>rhlAB</i>3, representing a 2.76-fold increase over the reference. Functional analysis suggested that mutation H263R in RhlB2 disrupted catalytic activity, while reversion (R263H) restored activity to 24.63 \u03bcg mL<sup>-1</sup>. Enhanced catalysis in RhlB3 was attributed to loop mutations (I234V and P238R) that improved substrate binding affinity and domain alignment. This study demonstrates that integrating computational mining with experimental validation can reveal naturally optimized enzyme variants, providing a scalable framework for accelerating enzyme engineering and advancing sustainable biosurfactant production.",
+        "url": "https://doi.org/10.1021/acssynbio.5c00828"
+      },
+      {
+        "title": "Solution structure, dynamics and tetrahedral assembly of Anti-TRAP, a homo-trimeric triskelion-shaped regulator of tryptophan biosynthesis in <i>Bacillus subtilis</i>.",
+        "authors": "McElroy CA, Ihms EC, Kumar Yadav D, Holmquist ML, Wadhwa V, Wysocki VH, Gollnick P, Foster MP.",
+        "journal": null,
+        "pub_year": "2024",
+        "doi": "10.1016/j.yjsbx.2024.100103",
+        "pmid": "39035014",
+        "pmcid": "PMC11255114",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Cellular production of tryptophan is metabolically expensive and tightly regulated. The small <i>Bacillus subtilis</i> zinc binding Anti-TRAP protein (AT), which is the product of the <i>yczA/rtpA</i> gene, is upregulated in response to accumulating levels of uncharged tRNA<sup>Trp</sup> through a T-box antitermination mechanism. AT binds to the undecameric axially symmetric ring-shaped protein TRAP (<i>trp</i> RNA Binding Attenuation Protein), thereby preventing it from binding to the <i>trp</i> leader RNA. This reverses the inhibitory effect of TRAP on transcription and translation of the <i>trp</i> operon. AT principally adopts two symmetric oligomeric states, a trimer (AT<sub>3</sub>) featuring three-fold axial symmetry or a dodecamer (AT<sub>12</sub>) comprising a tetrahedral assembly of trimers, whereas only the trimeric form binds and inhibits TRAP. We apply native mass spectrometry (nMS) and small-angle x-ray scattering (SAXS), together with analytical ultracentrifugation (AUC) to monitor the pH and concentration-dependent equilibrium between the trimeric and dodecameric structural forms of AT. In addition, we use solution nuclear magnetic resonance (NMR) spectroscopy to determine the solution structure of AT<sub>3</sub>, while heteronuclear <sup>15</sup>N relaxation measurements on both oligomeric forms of AT provide insights into the dynamic properties of binding-active AT<sub>3</sub> and binding-inactive AT<sub>12</sub>, with implications for TRAP binding and inhibition.",
+        "url": "https://doi.org/10.1016/j.yjsbx.2024.100103"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Protein-Conditional Normalizing Flows on Manifolds for Backbone Torsion Angle Modeling",
+        "authors": "nooshin  akbari sharak, Mahmood Amintoosi, morteza najibi, Mohammad  Taghi Shakeri",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.2139/ssrn.6996786",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:p>\u200eAngular representations play a central role in protein structure analysis\u200e, \u200ewith backbone torsion angles providing a compact and physically meaningful description of local conformations\u200e. \u200eThese variables naturally reside on non-Euclidean manifolds such as circles\u200e, \u200etori\u200e, \u200eand spheres\u200e, \u200emaking standard Euclidean density models unsuitable because they ignore periodicity and manifold geometry\u200e. \u200eAlthough normalizing flows provide a flexible framework for density estimation with exact likelihood evaluation\u200e, \u200emost existing methods are designed for Euclidean spaces or require approximations when applied to manifold-valued data\u200e.\u200eStandard Protein Neural Circular Spline Flows estimate a single probability distribution shared across all proteins\u200e, \u200epotentially overlooking protein-specific conformational characteristics\u200e. \u200eTo address this limitation\u200e, \u200ewe propose Protein-Conditional Neural Circular Spline Flows (PC-NCSF)\u200e, \u200ewhich estimate protein-specific distributions while leveraging a shared statistical representation across the dataset\u200e. \u200eThe proposed framework extends neural circular spline flows to toroidal and spherical manifolds through invertible\u200e, \u200egeometry-preserving transformations with tractable Jacobians\u200e. \u200eProtein-specific conformational preferences are incorporated through learnable protein embeddings that condition the flow parameters\u200e.\u200eWe evaluate PC-NCSF on backbone torsion-angle data and spherical angular representations derived from protein structure databases\u200e. \u200eExperimental results demonstrate that conditioning consistently improves density estimation compared with unconditional models\u200e, \u200eyielding lower negative log-likelihood values and more accurate protein-specific density representations\u200e. \u200eThe learned distributions respect the intrinsic topology and periodicity of the underlying manifolds while adapting to individual proteins\u200e. \u200eThese findings establish PC-NCSF as a principled probabilistic framework for modeling protein angular data\u200e, \u200ewith potential applications in protein structure analysis\u200e, \u200eclassification\u200e, \u200eand generative modeling\u200e. \u200eThe complete implementation is available at\u200e:\\url{https://github.com/mamintoosi-papers-codes/CFFF}\u200e.</jats:p>",
+        "url": "https://doi.org/10.2139/ssrn.6996786"
+      },
+      {
+        "title": "Backbone Torsion Angle Determination Using Proton Detected Magic-Angle Spinning Nuclear Magnetic Resonance",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jpclett.1c03267.s002",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jpclett.1c03267.s002"
+      },
+      {
+        "title": "Parameterized hypercomplex convolutional network for accurate protein backbone torsion angle prediction",
+        "authors": "Wei Yang, Shujia Wei, Lei Zhang",
+        "journal": "Scientific Reports",
+        "pub_year": 2024,
+        "doi": "10.1038/s41598-024-77412-8",
+        "type": "journal-article",
+        "citations": 2,
+        "abstract": null,
+        "url": "https://doi.org/10.1038/s41598-024-77412-8"
+      },
+      {
+        "title": "SAINT-Angle: self-attention augmented inception-inside-inception network and transfer learning improve protein backbone torsion angle prediction",
+        "authors": "A.K.M. Mehedi Hasan, Ajmain Yasar Ahmed, Sazan Mahbub, M. Saifur Rahman, Md. Shamsuzzoha Bayzid",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2022.12.08.519543",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>\n                    Protein structure provides insight into how proteins interact with one another as well as their functions in living organisms. Protein backbone torsion angles (\n                    <jats:italic>\u03d5</jats:italic>\n                    and\n                    <jats:italic>\u03c8</jats:italic>\n                    ) prediction is a key sub-problem in predicting protein structures. However, reliable determination of backbone torsion angles using conventional experimental methods is slow and expensive. Therefore, considerable effort is being put into developing computational methods for predicting backbone angles.\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We present SAINT-Angle, a highly accurate method for predicting protein backbone torsion angles using a self-attention based deep learning network called SAINT, which was previously developed for the protein secondary structure prediction. We extended and improved the existing SAINT architecture as well as used transfer learning to predict backbone angles. We compared the performance of SAINT-Angle with the state-of-the-art methods through an extensive evaluation study on a collection of benchmark datasets, namely, TEST2016, TEST2018, CAMEO, and CASP. The experimental results suggest that our proposed self-attention based network, together with transfer learning, has achieved notable improvements over the best alternate methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    SAINT-Angle is freely available as an open-source project at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/bayzidlab/SAINT-Angle\">https://github.com/bayzidlab/SAINT-Angle</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>shams_bayzid@cse.buet.ac.bd</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary material SM.pdf.</jats:p>\n                </jats:sec>",
+        "url": "https://doi.org/10.1101/2022.12.08.519543"
+      },
+      {
+        "title": "Backbone Torsion Angle Determination Using Proton Detected Magic-Angle Spinning Nuclear Magnetic Resonance",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jpclett.1c03267.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jpclett.1c03267.s001"
+      }
+    ],
+    "arxiv": []
+  },
+  "Experimental_Validation_IDP": {
+    "query": "intrinsically disordered protein ensemble validation SAXS NMR chemical shift",
+    "europe_pmc": [
+      {
+        "title": "Multisite Threonine Phosphorylation in the SPT5 C-Terminal Region 1 Enables Sequence-Dependent Regulation without Global Structural Remodeling.",
+        "authors": "Hu R, Usher ET, Fraser OA, Chen W, Holehouse AS, Showalter SA.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1021/acs.jpcb.6c03886",
+        "pmid": "42622275",
+        "pmcid": "PMC13557439",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Phosphorylation of intrinsically disordered regions (IDRs) is widely viewed as a mechanism for encoding regulatory information through structural transitions, as exemplified by the RNA polymerase II C-terminal domain (CTD), where phosphorylation induces local conformational changes such as proline isomerization. However, whether this paradigm extends to other disordered regulatory domains remains unclear. The C-terminal repeat region (CTR) of SPT5, a key cofactor in transcription elongation, contains multiple Thr-Pro motifs that are phosphorylated by P-TEFb, but the structural and mechanistic consequences of this modification have not been defined. Here, we combine NMR spectroscopy, small-angle X-ray scattering (SAXS), mass spectrometry, and molecular simulations to characterize the effects of multisite threonine phosphorylation on the SPT5 CTR1 domain. NMR analysis reveals that, in contrast to the RNA polymerase II CTD, phosphorylation does not induce detectable proline isomerization. Molecular simulations suggest this resistance arises because phosphothreonine forms an intramolecular hydrogen bond that restricts the backbone flexibility required for isomerization. SAXS measurements further show that hyperphosphorylation does not alter the global dimensions of the CTR1 ensemble, in agreement with predictions from polyampholyte polymer models. Notably, mass spectrometry and mutational analysis demonstrate that phosphorylation is strongly influenced by local sequence context, with specific residues modulating kinase selectivity. Together, these findings establish that multisite phosphorylation of the SPT5 CTR1 domain modulates a heterogeneous interaction landscape shaped by sequence context. More broadly, this work emphasizes the nontrivial difference between serine and threonine phosphorylation as a mechanism to regulate disordered protein structure-function relationships.",
+        "url": "https://doi.org/10.1021/acs.jpcb.6c03886"
+      },
+      {
+        "title": "Atomic resolution ensembles of intrinsically disordered proteins with Alphafold.",
+        "authors": "Schnapka V, Morozova TI, Sen S, Bonomi M.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1038/s41467-026-69172-y",
+        "pmid": "41644540",
+        "pmcid": "PMC12982490",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins are ubiquitous in biological systems and play essential roles in a wide range of biological processes and diseases. Despite recent advances in high-resolution structural biology techniques and breakthroughs in deep learning-based protein structure prediction, accurately determining structural ensembles of IDPs at atomic resolution remains a major challenge. Here, we introduce bAIes, a Bayesian framework that integrates AlphaFold2 predictions with physico-chemical molecular mechanics force fields to generate accurate atomic-resolution ensembles of IDPs. We show that bAIes produces structural ensembles that match a wide range of high- and low-resolution experimental data across diverse systems, achieving accuracy comparable to atomistic molecular dynamics simulations but at a fraction of their computational cost. Furthermore, bAIes outperforms state-of-the-art IDP models based on coarse-grained potentials as well as deep-learning approaches. Our findings pave the way for integrating structural information from modern deep-learning approaches with molecular simulations, advancing ensemble-based understanding of disordered proteins.",
+        "url": "https://doi.org/10.1038/s41467-026-69172-y"
+      },
+      {
+        "title": "In Search of Shape in the Unshaped: Constructing Ensembles of Intrinsically Disordered Proteins.",
+        "authors": "Saha D, Yang W, Zheng W.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1063/5.0307183",
+        "pmid": "42147780",
+        "pmcid": "PMC13175138",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) lack stable tertiary structure under physiological conditions; instead, they exist as highly dynamic ensembles of interconverting conformations. Capturing these heterogeneous ensembles with sufficient accuracy is essential for uncovering the fundamental links between sequence characteristics, conformational preferences, and biological function. However, this remains a formidable challenge: experimental techniques typically provide observables that represent averages over a vast number of conformations, while computational approaches rely critically on the accuracy of parameters and the adequacy of conformational sampling. In this review, we provide a comprehensive framework for integrating experimental data and molecular simulations to construct realistic conformational ensembles of IDPs. We discuss strategies for interpreting ensemble-averaged experimental observables, developing physically grounded and transferable computational models, and refining simulated ensembles using experimental restraints. Together, these approaches offer practical guidelines for combining multiple sources of data, assessing ensemble convergence, and validating model predictions, thereby providing a robust route toward generating reliable and predictive ensembles that illuminate the intricate sequence-ensemble-function relationships underpinning disordered protein science.",
+        "url": "https://doi.org/10.1063/5.0307183"
+      },
+      {
+        "title": "Integrative structural analysis of human endosomal NHE6 reveals a lipid-associated gate and disordered C-terminus.",
+        "authors": "Feilen LP, Sach LK, Tranchant EE, Lalic MR, Havelund JF, Jeria Cerda CM, Ginsthofer M, Ostendorf J, Ma L, Morrow EM, F\u00e6rgeman NJ, Pedersen SF, Kragelund BB, Autzen HE.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1038/s41467-026-76368-9",
+        "pmid": "42716947",
+        "pmcid": "PMC13558669",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Human NHE6 (HsNHE6) is an endosomal Na\u207a/H\u207a exchanger essential for maintaining luminal pH and endo-lysosomal trafficking in neurons. HsNHE6 mutations are implicated in devastating neurological syndromes, but mechanistically the transporter remains poorly understood. Here, we present the single-particle cryo-electron microscopy (cryo-EM) structure of HsNHE6 at 3.4\u2009\u00c5, captured in an inward-facing conformation. The structure reveals a homodimeric architecture with 13 transmembrane helices per protomer, with the conserved ion-binding site located at the interface of the core and dimerization domains. Functional assays demonstrate that HsNHE6 reconstituted in liposomes exchanges Na\u207a, K\u207a, Li\u207a, and Rb<sup>+</sup> for H<sup>+</sup>, with kinetic analysis revealing a preference for K\u207a. A structured C-terminal helix interacts with the transmembrane core, jointly forming a hydrophobic cavity containing two non-protein cryo-EM densities consistent with bound lipids that may modulate cation access to the ion-binding site. The remaining distal C-terminus of HsNHE6 is intrinsically disordered, as revealed by NMR and small-angle X-ray scattering, and extends up to 170\u2009\u00c5 into the cytosol. Our integrative structural model of full-length HsNHE6 provides a framework for understanding HsNHE6-mediated ion exchange and its disruption in Christianson syndrome.",
+        "url": "https://doi.org/10.1038/s41467-026-76368-9"
+      },
+      {
+        "title": "Transient tertiary structure in intrinsically disordered proteins revealed by multithermal enhanced sampling.",
+        "authors": "Streit JO, Invernizzi M, Bottaro S, Tamiola K, Lindorff-Larsen K.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1038/s41467-026-73067-3",
+        "pmid": "42129207",
+        "pmcid": "PMC13291234",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins populate heterogeneous conformational ensembles that are challenging to characterise. While all-atom molecular dynamics simulations can provide detailed insights into dynamic ensembles, achieving sufficient sampling remains difficult. Here, we show that On-the-fly Probability Enhanced Sampling (OPES) in the multithermal ensemble enables efficient generation of atomistic ensembles for disordered peptides and proteins ranging from 15 to 71 residues in length. OPES achieves multithermal sampling within a single simulation replica, without replica exchange or extensive parameter tuning. Across multiple systems, OPES yields reweighted ensembles broadly consistent with replica-exchange with solute tempering (REST2) and unbiased simulations, while accelerating convergence and enabling broader exploration of low-population conformational states. Applied to the intrinsically disordered transcriptional coactivator ACTR, OPES reveals transiently structured states in which multiple \u03b1-helices involved in partner binding fold cooperatively and form tertiary contacts. These rare, partially structured conformations are reversibly sampled during the simulations, are consistent with extensive NMR and SAXS data, and could facilitate folding-upon-binding through conformational selection. They may also represent viable targets for drug design or for engineering disordered proteins with customised conformational landscapes. More broadly, our results establish OPES multithermal sampling as a robust and accessible approach for uncovering functionally relevant conformations in intrinsically disordered proteins.",
+        "url": "https://doi.org/10.1038/s41467-026-73067-3"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Conformational Ensembles of an Intrinsically Disordered Protein Consistent with NMR, SAXS, and Single-Molecule FRET",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/jacs.0c02088.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/jacs.0c02088.s001"
+      },
+      {
+        "title": "Quantitative Description of Intrinsically Disordered Proteins Using Single-Molecule FRET, NMR, and SAXS",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/jacs.1c06264.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/jacs.1c06264.s001"
+      },
+      {
+        "title": "SAXS-Restrained Ensemble Simulations of Intrinsically Disordered Proteins with Commitment to the Principle of Maximum Entropy",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jctc.9b00338.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jctc.9b00338.s001"
+      },
+      {
+        "title": "Mapping Long-Range Interactions in the Intrinsically Disordered Protein a-Synuclein using Spin-Label NMR and Ensemble Molecular Dynamics Simulations",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/ja044834j.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/ja044834j.s001"
+      },
+      {
+        "title": "Streamlining NMR Chemical Shift Predictions for Intrinsically Disordered Proteins: Design of Ensembles with Dimensionality Reduction and Clustering",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.4c00809.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.4c00809.s001"
+      }
+    ],
+    "arxiv": []
+  },
+  "idpGAN_idpDiff": {
+    "query": "idpGAN OR idpDiff OR Str2IDP OR 'disordered protein' generative",
+    "europe_pmc": [
+      {
+        "title": "Accurate Generation of Conformational Ensembles for Intrinsically Disordered Proteins with IDPFold.",
+        "authors": "Zhu J, Li Z, Zheng Z, Zhang B, Zhong B, Bai J, Hong X, Wang T, Wei T, Yang J, Chen HF.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.1002/advs.202511636",
+        "pmid": "41082321",
+        "pmcid": "PMC12752595",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) play pivotal roles in various biological functions whose dynamic structures are closely associated with many human diseases, including cancer, diabetes, and Alzheimer disease. Structural investigations of IDPs typically involve a combination of molecular dynamics (MD) simulations and experimental data to mitigate intrinsic biases in simulation methods. However, the high computational cost of these simulations and the limited availability of experimental data significantly restrict their applicability. Despite the recent advancements in structure prediction for structured proteins, understanding the conformational properties of IDPs remains challenging, partly due to the poor conservation of disordered protein sequences and the scarcity of experimental characterization. Here, IDPFold is introduced as a method capable of generating conformational ensembles for IDPs directly from their sequences using fine-tuned diffusion models. IDPFold eliminates the reliance on multiple sequence alignments (MSA) or experimental data, offering a more detailed characterization of structural features in IDP ensembles. Evaluated across 27 IDP systems, IDPFold achieves Rg error of -0.06 and an RMSD of 0.65 ppm on C\u03b1 secondary chemical shifts with experimental values, significantly better than all existing generative deep learning approaches. IDPFold can be used to elucidate the sequence-disorder-function paradigm of IDPs.",
+        "url": "https://doi.org/10.1002/advs.202511636"
+      },
+      {
+        "title": "Use of AI-methods over MD simulations in the sampling of conformational ensembles in IDPs.",
+        "authors": "Sil S, Datta I, Basu S.",
+        "journal": null,
+        "pub_year": "2025",
+        "doi": "10.3389/fmolb.2025.1542267",
+        "pmid": "40264953",
+        "pmcid": "PMC12011600",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically Disordered Proteins (IDPs) challenge traditional structure-function paradigms by existing as dynamic ensembles rather than stable tertiary structures. Capturing these ensembles is critical to understanding their biological roles, yet Molecular Dynamics (MD) simulations, though accurate and widely used, are computationally expensive and struggle to sample rare, transient states. Artificial intelligence (AI) offers a transformative alternative, with deep learning (DL) enabling efficient and scalable conformational sampling. They leverage large-scale datasets to learn complex, non-linear, sequence-to-structure relationships, allowing for the modeling of conformational ensembles in IDPs without the constraints of traditional physics-based approaches. Such DL approaches have been shown to outperform MD in generating diverse ensembles with comparable accuracy. Most models rely primarily on simulated data for training and experimental data serves a critical role in validation, aligning the generated conformational ensembles with observable physical and biochemical properties. However, challenges remain, including dependence on data quality, limited interpretability, and scalability for larger proteins. Hybrid approaches combining AI and MD can bridge the gaps by integrating statistical learning with thermodynamic feasibility. Future directions include incorporating physics-based constraints and learning experimental observables into DL frameworks to refine predictions and enhance applicability. AI-driven methods hold significant promise in IDP research, offering novel insights into protein dynamics and therapeutic targeting while overcoming the limitations of traditional MD simulations.",
+        "url": "https://doi.org/10.3389/fmolb.2025.1542267"
+      },
+      {
+        "title": "Transferable deep generative modeling of intrinsically disordered protein conformations.",
+        "authors": "Janson G, Feig M.",
+        "journal": null,
+        "pub_year": "2024",
+        "doi": "10.1371/journal.pcbi.1012144",
+        "pmid": "38781245",
+        "pmcid": "PMC11152266",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins have dynamic structures through which they play key biological roles. The elucidation of their conformational ensembles is a challenging problem requiring an integrated use of computational and experimental methods. Molecular simulations are a valuable computational strategy for constructing structural ensembles of disordered proteins but are highly resource-intensive. Recently, machine learning approaches based on deep generative models that learn from simulation data have emerged as an efficient alternative for generating structural ensembles. However, such methods currently suffer from limited transferability when modeling sequences and conformations absent in the training data. Here, we develop a novel generative model that achieves high levels of transferability for intrinsically disordered protein ensembles. The approach, named idpSAM, is a latent diffusion model based on transformer neural networks. It combines an autoencoder to learn a representation of protein geometry and a diffusion model to sample novel conformations in the encoded space. IdpSAM was trained on a large dataset of simulations of disordered protein regions performed with the ABSINTH implicit solvent model. Thanks to the expressiveness of its neural networks and its training stability, idpSAM faithfully captures 3D structural ensembles of test sequences with no similarity in the training set. Our study also demonstrates the potential for generating full conformational ensembles from datasets with limited sampling and underscores the importance of training set size for generalization. We believe that idpSAM represents a significant progress in transferable protein ensemble modeling through machine learning.",
+        "url": "https://doi.org/10.1371/journal.pcbi.1012144"
+      },
+      {
+        "title": "AI-Physics-Experiment Trinity for Integrated Protein Dynamics Modeling.",
+        "authors": "Shi C, Low M, Xiu P, Lindorff-Larsen K, Wang Y.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/advs.76023",
+        "pmid": "42301231",
+        "pmcid": "PMC13336489",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Proteins exist as conformational ensembles, with dynamic transitions governing biological processes. Deciphering these dynamics demands integrating experimental data, physics-based simulations, and artificial intelligence (AI)-each with distinct strengths and limitations. Experiments deliver direct structural and dynamic benchmarks but are often constrained by insufficient spatiotemporal resolution or difficulties with providing information on transiently and weakly populated states. Physics-based methods may generate atomic-scale trajectories via force fields yet face sampling bottlenecks, force field sensitivity, and the curse of dimensionality. AI, particularly deep learning and generative modeling approaches, facilitates the efficient prediction of protein structures and conformational ensembles, as well as dimensionality reduction, yet is hindered by limited interpretability and transferability, and a scarcity of high-quality ground-truth data for training and benchmarking models of dynamics. This review outlines core principles of standalone approaches and highlights integrative strategies: experimental constraints guide physics-driven refinement; AI enhances experimental processing and ensemble generation; physics imparts plausibility to AI, while AI accelerates simulation sampling and force field optimization. We elaborate on this synergy, emphasizing physics-based modeling's glue-like role in reconciling heterogeneous datasets. Finally, we summarize persistent challenges and discuss future directions for integrated modeling of protein dynamics.",
+        "url": "https://doi.org/10.1002/advs.76023"
+      },
+      {
+        "title": "Virtual experiments bridge sequence and microscopy with generative models",
+        "authors": "Zheng D, Hong K, Huang B.",
+        "journal": "bioRxiv",
+        "pub_year": "2026",
+        "doi": "10.64898/2026.09.13.751243",
+        "pmid": null,
+        "pmcid": null,
+        "pub_type": null,
+        "source": "PPR",
+        "abstract": "Large-scale screening and mapping efforts have produced vast libraries of perturbation-readout data. Converting these measurements into mechanistic insights requires models that link perturbation and genetic input to phenotypes, i.e., labels from experimental readouts, which are usually task specific. We propose a different, virtual experiment modeling approach: train generative models to recreate readouts conditioned on the experimental context, and then let established downstream models extract phenotypes from the synthetic data. As an illustrative case, we develop a bidirectional sequence-image generative framework, CELL-FM, that maps protein sequence and cellular context to fluorescence microscopy images and back, enabling  in silico localization prediction, image-conditioned functional motif analysis and generation, and large-scale virtual mutagenesis revealing the amino acid features controlling condensate formation of intrinsically disordered peptides. This approach decouples representation learning from task-specific annotation, reuses rich experimental modalities across many downstream tasks, and preserves the spatial and organizational detail that hand-crafted labels often discard.",
+        "url": "https://doi.org/10.64898/2026.09.13.751243"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Transferable deep generative modeling of intrinsically disordered protein conformations",
+        "authors": "Giacomo Janson, Michael Feig",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2024.02.08.579522",
+        "type": "posted-content",
+        "citations": 5,
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Intrinsically disordered proteins have dynamic structures through which they play key biological roles. The elucidation of their conformational ensembles is a challenging problem requiring an integrated use of computational and experimental methods. Molecular simulations are a valuable computational strategy for constructing structural ensembles of disordered proteins but are highly resource-intensive. Recently, machine learning approaches based on deep generative models that learn from simulation data have emerged as an efficient alternative for generating structural ensembles. However, such methods currently suffer from limited transferability when modeling sequences and conformations absent in the training data. Here, we develop a novel generative model that achieves high levels of transferability for intrinsically disordered protein ensembles. The approach, named idpSAM, is a latent diffusion model based on transformer neural networks. It combines an autoencoder to learn a representation of protein geometry and a diffusion model to sample novel conformations in the encoded space. IdpSAM was trained on a large dataset of simulations of disordered protein regions performed with the ABSINTH implicit solvent model. Thanks to the expressiveness of its neural networks and its training stability, idpSAM faithfully captures 3D structural ensembles of test sequences with no similarity in the training set. Our study also demonstrates the potential for generating full conformational ensembles from datasets with limited sampling and underscores the importance of training set size for generalization. We believe that idpSAM represents a significant progress in transferable protein ensemble modeling through machine learning.</jats:p>\n                <jats:sec>\n                  <jats:title>AUTHOR SUMMARY</jats:title>\n                  <jats:p>Proteins are essential molecules in living organisms and some of them have highly dynamical structures, which makes understanding their biological roles challenging. Disordered proteins can be studied through a combination of computer simulations and experiments. Computer simulations are often resource-intensive. Recently, machine learning has been used to make this process more efficient. The strategy is to learn from previous simulations to model the heterogenous conformations of proteins. However, such methods still suffer from poor transferability, meaning that they tend to make incorrect predictions on proteins not seen in training data. In this study, we present idpSAM, a method based on generative artificial intelligence for modeling the structures of disordered proteins. The model was trained using a vast dataset and, thanks to its architecture and training procedure, it performs well on not just proteins in the training set but achieves high levels transferability to proteins unseen in training. This advancement is a step forward in modeling biologically relevant disordered proteins. It shows how the combination of generative modeling and large training sets and can aid us understand how dynamical proteins behave.</jats:p>\n                </jats:sec>",
+        "url": "https://doi.org/10.1101/2024.02.08.579522"
+      },
+      {
+        "title": "Generative design of intrinsically disordered protein regions with IDiom",
+        "authors": "Jason Liu, Sebastian Ibarraran, Frank Hu, Abigail Park, Alexander Dunn, Grant Rotskoff",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.64898/2026.04.10.717777",
+        "type": "posted-content",
+        "citations": 1,
+        "abstract": "<jats:p>Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region sequences curated from the AlphaFold Database. Trained using a fill-in-the-middle data augmentation, IDiom generates disordered region sequences conditioned on their surrounding structured context, as well as fully disordered proteins without any context. The model generates diverse sequences that recapitulate biologically relevant sequence features of natural disordered regions, and we demonstrate that post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization. These results establish IDiom as a general platform for the generative design of intrinsically disordered proteins and regions.</jats:p>",
+        "url": "https://doi.org/10.64898/2026.04.10.717777"
+      },
+      {
+        "title": "BPS2025 - Building efficient and transferable generative models of intrinsically disordered protein conformational ensembles",
+        "authors": "Grant M. Rotskoff",
+        "journal": "Biophysical Journal",
+        "pub_year": 2025,
+        "doi": "10.1016/j.bpj.2024.11.066",
+        "type": "journal-article",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.bpj.2024.11.066"
+      },
+      {
+        "title": "Transferable deep generative modeling of intrinsically disordered protein conformations",
+        "authors": "Giacomo Janson, Michael Feig",
+        "journal": "PLOS Computational Biology",
+        "pub_year": 2024,
+        "doi": "10.1371/journal.pcbi.1012144",
+        "type": "journal-article",
+        "citations": 58,
+        "abstract": "<jats:p>Intrinsically disordered proteins have dynamic structures through which they play key biological roles. The elucidation of their conformational ensembles is a challenging problem requiring an integrated use of computational and experimental methods. Molecular simulations are a valuable computational strategy for constructing structural ensembles of disordered proteins but are highly resource-intensive. Recently, machine learning approaches based on deep generative models that learn from simulation data have emerged as an efficient alternative for generating structural ensembles. However, such methods currently suffer from limited transferability when modeling sequences and conformations absent in the training data. Here, we develop a novel generative model that achieves high levels of transferability for intrinsically disordered protein ensembles. The approach, named idpSAM, is a latent diffusion model based on transformer neural networks. It combines an autoencoder to learn a representation of protein geometry and a diffusion model to sample novel conformations in the encoded space. IdpSAM was trained on a large dataset of simulations of disordered protein regions performed with the ABSINTH implicit solvent model. Thanks to the expressiveness of its neural networks and its training stability, idpSAM faithfully captures 3D structural ensembles of test sequences with no similarity in the training set. Our study also demonstrates the potential for generating full conformational ensembles from datasets with limited sampling and underscores the importance of training set size for generalization. We believe that idpSAM represents a significant progress in transferable protein ensemble modeling through machine learning.</jats:p>",
+        "url": "https://doi.org/10.1371/journal.pcbi.1012144"
+      },
+      {
+        "title": "BPS2025 - Generative and supervised prediction of artificial intrinsically disordered protein sequences forming biomolecular condensates",
+        "authors": "Youmin Shim, Priyannth Ramasami Sundharbaabu, Jung Heon Lee",
+        "journal": "Biophysical Journal",
+        "pub_year": 2025,
+        "doi": "10.1016/j.bpj.2024.11.1289",
+        "type": "journal-article",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.bpj.2024.11.1289"
+      }
+    ],
+    "arxiv": []
+  },
+  "AlphaFold_Ensemble_IDP": {
+    "query": "AlphaFold conformational ensemble intrinsically disordered",
+    "europe_pmc": [
+      {
+        "title": "Conformational dynamics of fuzzy interfaces in disordered protein complexes: mapping key residues and binding modes beyond NMR models.",
+        "authors": "Fern\u00e1ndez ML, Bastien MC, Tavolaro FG, Marino-Buslje C.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.3389/fbinf.2026.1907936",
+        "pmid": "42756412",
+        "pmcid": "PMC13582614",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Understanding the dynamic behavior of fuzzy complexes formed by intrinsically disordered proteins (IDPs) is challenging due to their conformational flexibility. Nuclear Magnetic Resonance (NMR) structural bundles satisfy experimental constraints and inherently provide an overview of alternative conformations in solution. However, they assign equal weight to every sampled model, obscuring the temporal prevalence and dynamics of inter-residue contacts. In this study, we performed dual 1-microsecond (\u00b5s) Molecular Dynamics (MD) simulations for eight biologically relevant fuzzy complexes, utilizing the most distant conformers from deposited NMR models, as starting configurations. Through structural clustering and contact-persistence analysis, we classified the complexes into two distinct dynamic categories. The first group comprises complexes whose trajectories remain consistent with experimental data. Notably, large-scale motions such as relative chain rotations observed during simulations are already reflected as distinct orientations within the starting NMR conformers. Conversely, the second group comprises complexes that exhibit interaction modes absent in the structural NMR ensembles. These include alternative stable interfaces arising from chain reorientation, as well as highly dynamic interfaces characterized by rapidly exchanging contacts lacking any persistent stabilizing core. Furthermore, the microsecond trajectories captured intermittent dissociation and re-association events where the proteins sampled transient contacts through alternative regions. Overall, leveraging NMR models as a baseline for MD clustering and contact weighting, provides a systematic bioinformatics analysis to solve the atomistic details of flexible interfaces. Beyond categorizing diverse binding behaviors, this approach systematically refines the interaction surfaces across all studied cases, uncovers dynamic features that escape detection in ensemble-averaged NMR structures. Furthermore, it maps key residues to guide further experimental approaches, such as mutational studies or therapeutic targeting, among other applications.",
+        "url": "https://doi.org/10.3389/fbinf.2026.1907936"
+      },
+      {
+        "title": "Ensemblify: A User-friendly Platform for Generating and Analyzing Conformational Ensembles of Intrinsically Disordered Proteins and Regions.",
+        "authors": "Fernandes NP, Gomes T, Cordeiro TN.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1016/j.jmb.2026.169862",
+        "pmid": "42140310",
+        "pmcid": null,
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge structural characterization due to their dynamic conformational ensembles. Existing computational approaches for modeling these ensembles are often computationally expensive, inflexible, or inaccessible to non-experts, particularly for multi-domain or multi-chain proteins. We present Ensemblify, an open-source, user-friendly Python package for generating and analyzing conformational ensembles of IDPs/IDRs. Ensemblify uses a Monte Carlo algorithm coupled with neighbor-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space. Optionally, it can incorporate information from AlphaFold's confidence metrics as flexible energy restraints in PyRosetta to guide sampling. Ensemblify supports multi-domain and multi-chain proteins and can sample N-terminal, C-terminal, and inter-domain linkers while preserving folded regions. Ensemble quality can be validated and refined against experimental data such as SAXS via Bayesian/Maximum Entropy reweighting. Interactive dashboards provide in-depth structural analysis and comparison. Testing across ten structurally diverse proteins coupled with state-of-the-art benchmarking demonstrated Ensemblify's accuracy, flexibility, and ability to recover experimentally observed structural features. Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement. Ensemblify is freely available at https://github.com/CordeiroLab/ensemblify, along with installation and usage tutorials. Ensemblify can be used for scripting through its Python API or directly through the provided command-line interface (CLI). Complete documentation is available within the source-code and CLI and on Ensemblify's official documentation page (https://ensemblify.readthedocs.io).",
+        "url": "https://doi.org/10.1016/j.jmb.2026.169862"
+      },
+      {
+        "title": "AF-CALVADOS: AlphaFold-guided simulations of multi-domain proteins at the proteome level.",
+        "authors": "von B\u00fclow S, Johansson KE, Lindorff-Larsen K.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1002/pro.70694",
+        "pmid": "42427316",
+        "pmcid": "PMC13351942",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Deep-learning methods have transformed our ability to predict the three-dimensional structures of folded proteins from sequence, and coarse-grained simulations have made it possible to study intrinsically disordered proteins at the proteome scale. More than half of human proteins, however, contain mixtures of disordered regions and one or more folded domains, and the biological function of these multi-domain proteins (MDPs) depends on the interplay between the folded and disordered regions. Here, we developed AF-CALVADOS, a coarse-grained simulation model that is informed by AlphaFold to model the dynamics of intrinsically disordered proteins and MDPs containing mixtures of folded and disordered regions. AF-CALVADOS leverages information from AlphaFold 2 to model folded regions that we then integrate with the coarse-grained CALVADOS model. Our automated framework makes it possible to perform simulations of any soluble folded or disordered protein without manually defining the folded regions, enabling scaling to the proteome level. We validate AF-CALVADOS using experimental small-angle x-ray scattering data for more than 400 proteins and find that it performs well across proteins with varying amounts of ordered and disordered regions. We demonstrate the scalability of AF-CALVADOS by performing simulations of 12,483 intracellular human proteins and make the data freely available; we envisage that large-scale simulation data generated by AF-CALVADOS can be used to benchmark or train machine learning models for flexible, MDPs. The conformational ensembles can also be used to study sequence-dynamics-function relationships at scale, and can shed light on the interplay between folded and disordered regions. We illustrate this by analyzing the disordered regions in 1487 human transcription factors. AF-CALVADOS is available as part of the CALVADOS package at: github.com/KULL-Centre/CALVADOS. Single-chain simulations with AF-CALVADOS can be run via Google Colab: colab.research.google.com/github/KULL-Centre/_2025_buelow_AF-CALVADOS/blob/main/AF_CALVADOS.ipynb.",
+        "url": "https://doi.org/10.1002/pro.70694"
+      },
+      {
+        "title": "Navigating the uncharted: AI-driven advances in protein structure, dynamics, interactions and ligand interactions for understudied families.",
+        "authors": "Singh S, Singh R, Sharma S.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.1186/s13040-026-00577-7",
+        "pmid": "42310771",
+        "pmcid": "PMC13523371",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "The structural and functional characterization of lesser-known protein families remains a major challenge in modern computational biology. Recent breakthroughs in artificial intelligence (AI) and machine learning (ML) have rapidly advanced these fields. This is particularly evident in overcoming the limitations of traditional modelling approaches, such as classical homology modelling and ab initio folding methods. This review traces the evolution of conventional methods to cutting-edge deep learning frameworks, such as AlphaFold2, RoseTTAFold, and transformer-based architectures. We explore how these AI-driven tools achieve near-experimental accuracy in structure prediction, model protein dynamics, and intrinsic disorder. We also addressed computational approaches for protein-protein interactions (PPIs), central to cellular function and interface-targeted drug design, alongside protein-ligand interactions, including novel generative methods. Two representative case studies targeting orphan G-protein-coupled receptors and intrinsically disordered regions demonstrate the transformative potential of these techniques for previously intractable systems. Despite these advances, significant challenges remain, including the need for experimental validation, effective modelling of protein flexibility, and ethical considerations surrounding AI-generated data. We also compare classical and AI-based structural biology pipelines, summarize key tools (e.g. transformers, graph neural networks, and diffusion models), and offer best practice guidelines for computational modelling and data visualization. These developments provide unprecedented insights into the dark proteome regions of the protein universe, enabling the structural illumination of previously uncharacterized and understudied proteins where structure or function was unknown. This review aims to serve as a roadmap for researchers seeking to harness AI innovations to tackle some of the most challenging aspects of proteomics.",
+        "url": "https://doi.org/10.1186/s13040-026-00577-7"
+      },
+      {
+        "title": "The fusion of artificial intelligence and omics: a perspective toward 2035.",
+        "authors": "Cant\u00f3n ED.",
+        "journal": null,
+        "pub_year": "2026",
+        "doi": "10.3332/ecancer.2026.2152",
+        "pmid": "42741268",
+        "pmcid": "PMC13572563",
+        "pub_type": null,
+        "source": "MED",
+        "abstract": "Artificial intelligence (AI) has catalyzed a revolution in the life sciences, culminating in AlphaFold's capacity to predict the static structure of proteins with atomic precision. However, this static view-analogous to a molecular radiograph-omits the fundamental dimension of protein dynamics, a critical factor for biological function and drug interaction. The phenomenon of induced fit, whereby proteins reconfigure upon ligand binding, remains largely beyond the reach of current models. This article posits that the next frontier in computational biology lies in the adoption of World Models-AI architectures such as Google DeepMind's Genie 3 and Meta AI's Joint-Embedding Predictive Architecture. Rather than predicting individual states, these models learn the underlying rules governing system evolution. We argue that applying these principles to molecular dynamics may enable the simulation of conformational trajectories, predicting how proteins move, flex, and respond to ligand binding. We explore the transformative implications for oncology, particularly in the design of allosteric modulators and in targeting historically \"undruggable\" proteins such as intrinsically disordered proteins. Finally, we delineate a roadmap toward 2035, highlighting challenges and opportunities at the convergence of generative AI and dynamic structural biology.",
+        "url": "https://doi.org/10.3332/ecancer.2026.2152"
+      }
+    ],
+    "crossref": [
+      {
+        "title": "Deeper Insight of the Conformational Ensemble of Intrinsically Disordered Proteins",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.4c00941.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.4c00941.s001"
+      },
+      {
+        "title": "Conformational Ensemble Dynamics of Intrinsically Disordered Full-Length - and Synuclein Monomers",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jcim.5c01602.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jcim.5c01602.s001"
+      },
+      {
+        "title": "Intrinsically Disordered Proteins Can Behave as Different Polymers across Their Conformational Ensemble",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/acs.jpcb.4c07020.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/acs.jpcb.4c07020.s001"
+      },
+      {
+        "title": "Structural Context Modulates the Conformational Ensemble of the Intrinsically Disordered Amino Terminus of Synuclein",
+        "authors": "",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1021/jacs.4c15653.s001",
+        "type": "component",
+        "citations": 0,
+        "abstract": null,
+        "url": "https://doi.org/10.1021/jacs.4c15653.s001"
+      },
+      {
+        "title": "Intrinsically disordered proteins can behave as different polymers across their conformational ensemble",
+        "authors": "Saikat Chakraborty, Tatiana I. Morozova, Jean-Louis Barrat",
+        "journal": null,
+        "pub_year": null,
+        "doi": "10.1101/2024.09.27.615433",
+        "type": "posted-content",
+        "citations": 0,
+        "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Intrinsically disordered proteins (IDPs) are macromolecules, which in contrast to well-folded proteins, explore a large number of conformationally heterogeneous states. In this work, we investigate the conformational space of the disordered protein\n                  <jats:italic>\u03b2</jats:italic>\n                  -casein using Hamiltonian replica exchange atomistic molecular dynamics simulations in explicit water. The energy landscape contains a global minimum along with two shallow funnels. Employing static polymeric scaling laws separately for individual funnels, we find that they cannot be described by the same polymeric scaling exponent. Around the global minimum, the conformations are globular, whereas in the vicinity of local minima we recover coil-like scaling. To elucidate the implications of structural diversity on equilibrium dynamics, we initiate standard molecular dynamics simulations in the NVT ensemble with representative conformations from each funnel. Global and internal motions for different classes of trajectories show heterogeneous dynamics with globule to coil-like signatures. Thus, IDPs can behave as entirely different polymers in different regions of the conformational space.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>TOC Graphic</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"615433v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+        "url": "https://doi.org/10.1101/2024.09.27.615433"
+      }
+    ],
+    "arxiv": []
+  }
+}
